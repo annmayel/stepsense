@@ -1,0 +1,1530 @@
+﻿=== START4 2026-10-01T16:32:24.5818712+08:00 ===
+--- gen_snapshot binaries ---
+
+Name              Length LastWriteTime         
+----              ------ -------------         
+gen_snapshot.exe 4966343 11/21/2025 11:53:36 PM
+
+
+
+Name              Length LastWriteTime         
+----              ------ -------------         
+gen_snapshot.exe 5660672 11/21/2025 11:53:37 PM
+
+
+--- try gen_snapshot --version (arm) ---
+EXIT gen_snapshot-arm-version: -1073741819
+--- try gen_snapshot --version (arm64) ---
+gen_snapshot.exe : Dart SDK version: 3.10.1 (stable) (Tue Nov 18 11:02:31 2025 -0800) on "windows_simarm64"
+At C:\Users\stepsense\run_build4.ps1:11 char:1
++ & "D:\IT-120\flutter\bin\cache\artifacts\engine\android-arm64-release ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Dart SDK versio...ndows_simarm64":String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+EXIT gen_snapshot-arm64-version: 0
+STEP: flutter build apk --release --target-platform android-arm64 -v
+[+5692 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[   +2 ms] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[   +1 ms] executing: [D:\IT-120\flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[+2242 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2025-11-20 17:53:13 -0500
+[  +30 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +4 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[+13889 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[  +25 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[+1569 ms] Skipping pub get: version match.
+[ +478 ms] Found plugin shared_preferences at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences-2.5.5\
+[  +30 ms] Found plugin shared_preferences_windows at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_windows-2.4.1\
+[ +217 ms] Found plugin path_provider_windows at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[ +572 ms] Found plugin shared_preferences_web at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_web-2.4.3\
+[ +211 ms] Found plugin shared_preferences_linux at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_linux-2.4.1\
+[ +502 ms] Found plugin path_provider_linux at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.2\
+[ +465 ms] Found plugin shared_preferences_foundation at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_foundation-2.5.7\
+[  +71 ms] Found plugin shared_preferences_android at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.23\
+[ +277 ms] Found plugin shared_preferences at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences-2.5.5\
+[   +2 ms] Found plugin shared_preferences_windows at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_windows-2.4.1\
+[   +7 ms] Found plugin path_provider_windows at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[  +10 ms] Found plugin shared_preferences_web at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_web-2.4.3\
+[   +9 ms] Found plugin shared_preferences_linux at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_linux-2.4.1\
+[   +3 ms] Found plugin path_provider_linux at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.2\
+[  +11 ms] Found plugin shared_preferences_foundation at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_foundation-2.5.7\
+[   +2 ms] Found plugin shared_preferences_android at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.23\
+[ +352 ms] Generating C:\Users\stepsense\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java
+[  +41 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[+1038 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[+3683 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[        ] openjdk version "21.0.8" 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[  +84 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[ +194 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[        ] openjdk version "21.0.8" 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[ +486 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +4 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java --version
+[ +168 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java --version
+[        ] openjdk 21.0.8 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[   +3 ms] Version of Java is different than impacted version, no migration attempted.
+[  +24 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[ +301 ms] Using gradle from C:\Users\stepsense\android\gradlew.bat.
+[  +25 ms] LocalFile: 'C:\Users\stepsense\android\build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[  +16 ms] LocalFile: 'C:\Users\stepsense\android\settings.gradle.kts' provides AGP version: 8.11.1
+[   +5 ms] Running Gradle task 'assembleRelease'...
+[   +1 ms] executing: [C:\Users\stepsense\android/] C:\Users\stepsense\android\gradlew.bat --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm64 -Ptarget=lib\main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuMzguMw==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MTkwNzRkMTJmNw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049MTNlNjU4NzI1ZA==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC4x -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=true assembleRelease
+[+5970 ms] Initialized native services in: C:\Users\rantet\.gradle\native
+[  +16 ms] Initialized jansi services in: C:\Users\rantet\.gradle\native
+[+1152 ms] Found daemon DaemonInfo{pid=4568, address=[da867c22-1628-4f76-ad0c-23de6795b9ff port:49951, addresses:[/127.0.0.1]], state=Idle, lastBusy=1766072674179, context=DefaultDaemonContext[uid=15879717-200e-439d-abdd-d9333c801ee2,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\rantet\.gradle\daemon,pid=4568,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=512m,-XX:ReservedCodeCacheSize=256m,-Xmx4096m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+[        ] At least one daemon option is different.
+[        ] Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Android\Android Studio\jbr (no JDK specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=4G, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx8G, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+[        ] Actual: DefaultDaemonContext[uid=15879717-200e-439d-abdd-d9333c801ee2,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\rantet\.gradle\daemon,pid=4568,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=512m,-XX:ReservedCodeCacheSize=256m,-Xmx4096m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+[        ]   Looking for a different daemon...
+[        ] Found daemon DaemonInfo{pid=5760, address=[ee1efce3-26b2-4c5e-8473-295904e8ac8d port:65483, addresses:[/127.0.0.1]], state=Idle, lastBusy=1771369950600, context=DefaultDaemonContext[uid=afe583da-dd2b-47bf-b87a-9d73f3b1bce3,javaHome=C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot,javaVersion=17,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\rantet\.gradle\daemon,pid=5760,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+[        ] JVM is incompatible.
+[        ] Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Android\Android Studio\jbr (no JDK specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=4G, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx8G, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+[        ] Actual: DefaultDaemonContext[uid=afe583da-dd2b-47bf-b87a-9d73f3b1bce3,javaHome=C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot,javaVersion=17,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\rantet\.gradle\daemon,pid=5760,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+[        ]   Looking for a different daemon...
+[ +695 ms] Removing 0 daemon stop events from registry
+[ +301 ms] Previous Daemon (9924) stopped at Thu Oct 01 16:06:58 SGT 2026 by user or operating system
+[   +7 ms] Starting a Gradle Daemon, 2 busy and 2 incompatible and 1 stopped Daemons could not be reused, use --status for details
+[+1478 ms] Starting process 'Gradle build daemon'. Working directory: C:\Users\rantet\.gradle\daemon\8.14 Command: C:\Program Files\Android\Android Studio\jbr\bin\java.exe --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.xml/javax.xml.namespace=ALL-UNNAMED -XX:MaxMetaspaceSize=4G -XX:ReservedCodeCacheSize=512m -XX:+HeapDumpOnOutOfMemoryError -Xmx8G -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -cp C:\Users\rantet\.gradle\wrapper\dists\gradle-8.14-all\c2qonpi39x1mddn7hk5gh9iqj\gradle-8.14\lib\gradle-daemon-main-8.14.jar -javaagent:C:\Users\rantet\.gradle\wrapper\dists\gradle-8.14-all\c2qonpi39x1mddn7hk5gh9iqj\gradle-8.14\lib\agents\gradle-instrumentation-agent-8.14.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 8.14
+[ +137 ms] Successfully started process 'Gradle build daemon'
+[+37874 ms] An attempt to start the daemon took 39.091 secs.
+[ +597 ms] The client will now receive all logging from the daemon (pid: 976). The daemon log file: C:\Users\rantet\.gradle\daemon\8.14\daemon-976.out.log
+[        ] Starting build in new daemon [memory: 8 GiB]
+[+5101 ms] Using 2 worker leases.
+[+9896 ms] Received JVM installation metadata from 'C:\Program Files\Android\Android Studio\jbr': {JAVA_HOME=C:\Program Files\Android\Android Studio\jbr, JAVA_VERSION=21.0.8, JAVA_VENDOR=JetBrains s.r.o., RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.8+-14196175-b1038.72, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.8+-14196175-b1038.72, VM_VENDOR=JetBrains s.r.o., OS_ARCH=amd64}
+[+11195 ms] Watching the file system is configured to be enabled if available
+[  +95 ms] Now considering [C:\Users\stepsense\android] as hierarchies to watch
+[        ] File system watching is active
+[+19118 ms] Starting Build
+[+22187 ms] Now considering [D:\IT-120\flutter\packages\flutter_tools\gradle, C:\Users\stepsense\android] as hierarchies to watch
+[+10340 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file 'D:\IT-120\flutter\packages\flutter_tools\gradle\build.gradle.kts'.
+[ +669 ms] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[  +86 ms] Resolved plugin [id: 'org.gradle.groovy']
+[+1999 ms] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '5.2.0']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+[+81006 ms] Using Kotlin Gradle Plugin gradle85 variant
+[+26597 ms] kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+[  +95 ms] kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[+3112 ms] file or directory 'D:\IT-120\flutter\packages\flutter_tools\gradle\src\main\java', not found
+[ +984 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\resourceHashesCache.bin
+[        ] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\journal-1\file-access.bin
+[+5400 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\resourceHashesCache.bin
+[+2301 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\journal-1\file-access.bin
+[+15812 ms] Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+[  +97 ms] Resolved plugin [id: 'com.android.application', version: '8.11.1', apply: false]
+[   +1 ms] Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.20', apply: false]
+[+3886 ms] Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#51,included builds,5,main]) started.
+[ +206 ms] :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#51,included builds,5,main]) started.
+[  +96 ms] > Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[   +2 ms] Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[   +1 ms] Resolve mutations for :gradle:compileKotlin (Thread[#51,included builds,5,main]) started.
+[ +103 ms] :gradle:compileKotlin (Thread[#51,included builds,5,main]) started.
+[+1937 ms] > Task :gradle:compileKotlin
+[   +1 ms] Invalidating in-memory cache of D:\IT-120\flutter\packages\flutter_tools\gradle\.gradle\buildOutputCleanup\outputFiles.bin
+[+2055 ms] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\fileHashes\resourceHashesCache.bin
+[+1799 ms] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\fileHashes\fileHashes.bin
+[   +1 ms] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\fileHashes\resourceHashesCache.bin
+[ +730 ms] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\fileHashes\fileHashes.bin
+[   +3 ms] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\fileHashes\resourceHashesCache.bin
+[ +763 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\journal-1\file-access.bin
+[ +344 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\fileHashes.bin
+[   +2 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\resourceHashesCache.bin
+[+3479 ms] Caching disabled for task ':gradle:compileKotlin' because:
+[   +3 ms]   Build cache is disabled
+[   +1 ms] Skipping task ':gradle:compileKotlin' as it is up-to-date.
+[   +1 ms] > Task :gradle:compileKotlin UP-TO-DATE
+[   +1 ms] Resolve mutations for :gradle:compileJava (Thread[#51,included builds,5,main]) started.
+[        ] :gradle:compileJava (Thread[#51,included builds,5,main]) started.
+[        ] > Task :gradle:compileJava NO-SOURCE
+[        ] Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:compileGroovy (Thread[#51,included builds,5,main]) started.
+[        ] :gradle:compileGroovy (Thread[#51,included builds,5,main]) started.
+[        ] > Task :gradle:compileGroovy NO-SOURCE
+[        ] Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:pluginDescriptors (Thread[#51,included builds,5,main]) started.
+[        ] :gradle:pluginDescriptors (Thread[#51,included builds,5,main]) started.
+[ +367 ms] > Task :gradle:pluginDescriptors UP-TO-DATE
+[        ] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\fileHashes\resourceHashesCache.bin
+[        ] Caching disabled for task ':gradle:pluginDescriptors' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+[        ] Resolve mutations for :gradle:processResources (Thread[#51,included builds,5,main]) started.
+[        ] :gradle:processResources (Thread[#51,included builds,5,main]) started.
+[ +204 ms] > Task :gradle:processResources UP-TO-DATE
+[        ] Caching disabled for task ':gradle:processResources' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:processResources' as it is up-to-date.
+[        ] Resolve mutations for :gradle:classes (Thread[#51,included builds,5,main]) started.
+[        ] :gradle:classes (Thread[#51,included builds,5,main]) started.
+[        ] > Task :gradle:classes UP-TO-DATE
+[        ] Skipping task ':gradle:classes' as it has no actions.
+[        ] Resolve mutations for :gradle:jar (Thread[#51,included builds,5,main]) started.
+[        ] :gradle:jar (Thread[#51,included builds,5,main]) started.
+[        ] > Task :gradle:jar UP-TO-DATE
+[        ] Caching disabled for task ':gradle:jar' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:jar' as it is up-to-date.
+[+27789 ms] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\fileHashes\resourceHashesCache.bin
+[+9093 ms] Settings evaluated using settings file 'C:\Users\stepsense\android\settings.gradle.kts'.
+[   +1 ms] Projects loaded. Root project using build file 'C:\Users\stepsense\android\build.gradle.kts'.
+[        ] Included projects: [root project 'android', project ':app', project ':shared_preferences_android']
+[+1997 ms] > Configure project :
+[        ] Evaluating root project 'android' using build file 'C:\Users\stepsense\android\build.gradle.kts'.
+[+28297 ms] > Configure project :app
+[        ] Evaluating project ':app' using build file 'C:\Users\stepsense\android\app\build.gradle.kts'.
+[        ] Resolved plugin [id: 'com.android.application']
+[        ] Resolved plugin [id: 'kotlin-android']
+[        ] Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+[+16509 ms] Using default execution profile
+[+13299 ms] Build 8bca9e26-2e93-404f-91c7-ea9c9afaf948 is started
+[+8563 ms] Using Kotlin Gradle Plugin gradle813 variant
+[+22331 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\fileHashes.bin
+[   +1 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\resourceHashesCache.bin
+[   +1 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\journal-1\file-access.bin
+[+107301 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[ +690 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[ +499 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[   +1 ms] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[ +306 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[   +1 ms] C/C++: android.ndkPath from module build.gradle is not set
+[   +4 ms] C/C++: ndk.dir in local.properties is not set
+[   +2 ms] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[   +1 ms] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[   +1 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[   +1 ms] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[   +1 ms] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[   +7 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[   +2 ms] C/C++: android.ndkPath from module build.gradle is not set
+[   +1 ms] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[   +1 ms] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[   +1 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[   +2 ms] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[   +4 ms] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[ +113 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[   +1 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[ +206 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[   +6 ms] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[   +2 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[   +3 ms] C/C++: ndk.dir in local.properties is not set
+[   +1 ms] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[   +1 ms] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[   +1 ms] C/C++: android.ndkPath from module build.gradle is not set
+[   +4 ms] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[   +1 ms] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[   +2 ms] C/C++: ndk.dir in local.properties is not set
+[   +1 ms] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[ +106 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[   +1 ms] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\rantet\AppData\Local\Android\Sdk
+[+21228 ms] > Configure project :shared_preferences_android
+[        ] Evaluating project ':shared_preferences_android' using build file 'C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.23\android\build.gradle.kts'.
+[ +507 ms] Resolved plugin [id: 'com.android.library']
+[   +1 ms] Resolved plugin [id: 'kotlin-android']
+[+37850 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\resourceHashesCache.bin
+[ +808 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\resourceHashesCache.bin
+[+13422 ms] Using default execution profile
+[   +1 ms] Using Kotlin Gradle Plugin gradle813 variant
+[ +410 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\resourceHashesCache.bin
+[+4244 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\resourceHashesCache.bin
+[+2299 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\resourceHashesCache.bin
+[+3009 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\resourceHashesCache.bin
+[+2496 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\resourceHashesCache.bin
+[+14602 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\fileHashes.bin
+[   +5 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\8.14\fileHashes\resourceHashesCache.bin
+[+82586 ms] Invalidating in-memory cache of C:\Users\rantet\.gradle\caches\journal-1\file-access.bin
+[+14896 ms] All projects evaluated.
+[ +111 ms] Task name matched 'assembleRelease'
+[        ] Selected primary task 'assembleRelease' from project :
+[+32099 ms] Tasks to be executed: [task ':app:ReleaseMinSdkCheck', task ':app:compileFlutterBuildRelease', task ':app:packJniLibsflutterBuildRelease', task ':app:preBuild', task ':app:preReleaseBuild', task ':app:configureCMakeRelease[arm64-v8a]', task ':app:buildCMakeRelease[arm64-v8a]', task ':app:configureCMakeRelease[armeabi-v7a]', task ':app:buildCMakeRelease[armeabi-v7a]', task ':app:configureCMakeRelease[x86_64]', task ':app:buildCMakeRelease[x86_64]', task ':app:mergeReleaseJniLibFolders', task ':shared_preferences_android:preBuild', task ':shared_preferences_android:preReleaseBuild', task ':shared_preferences_android:mergeReleaseJniLibFolders', task ':shared_preferences_android:mergeReleaseNativeLibs', task ':shared_preferences_android:copyReleaseJniLibsProjectOnly', task ':app:mergeReleaseNativeLibs', task ':app:stripReleaseDebugSymbols', task ':app:extractReleaseNativeSymbolTables', task ':app:mergeReleaseNativeDebugMetadata', task ':shared_preferences_android:checkKotlinGradlePluginConfigurationErrors', task ':shared_preferences_android:generateReleaseResValues', task ':shared_preferences_android:generateReleaseResources', task ':shared_preferences_android:packageReleaseResources', task ':shared_preferences_android:parseReleaseLocalResources', task ':shared_preferences_android:generateReleaseRFile', task ':shared_preferences_android:compileReleaseKotlin', task ':shared_preferences_android:javaPreCompileRelease', task ':shared_preferences_android:compileReleaseJavaWithJavac', task ':shared_preferences_android:mergeReleaseGeneratedProguardFiles', task ':shared_preferences_android:exportReleaseConsumerProguardFiles', task ':app:buildKotlinToolingMetadata', task ':app:checkReleaseDuplicateClasses', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':shared_preferences_android:writeReleaseAarMetadata', task ':app:checkReleaseAarMetadata', task ':app:cleanMergeReleaseAssets', task ':app:mergeReleaseShaders', task ':app:compileReleaseShaders', task ':app:generateReleaseAssets', task ':shared_preferences_android:mergeReleaseShaders', task ':shared_preferences_android:compileReleaseShaders', task ':shared_preferences_android:generateReleaseAssets', task ':shared_preferences_android:mergeReleaseAssets', task ':app:mergeReleaseAssets', task ':app:copyFlutterAssetsRelease', task ':app:generateReleaseResValues', task ':app:mapReleaseSourceSetPaths', task ':app:generateReleaseResources', task ':app:mergeReleaseResources', task ':app:packageReleaseResources', task ':app:parseReleaseLocalResources', task ':app:createReleaseCompatibleScreenManifests', task ':app:extractDeepLinksRelease', task ':shared_preferences_android:extractDeepLinksRelease', task ':shared_preferences_android:processReleaseManifest', task ':app:processReleaseMainManifest', task ':app:outputReleaseAppLinkSettings', task ':app:processReleaseManifest', task ':app:processReleaseManifestForPackage', task ':app:processReleaseResources', task ':shared_preferences_android:bundleLibCompileToJarRelease', task ':app:compileReleaseKotlin', task ':app:javaPreCompileRelease', task ':app:compileReleaseJavaWithJavac', task ':shared_preferences_android:prepareReleaseArtProfile', task ':app:mergeReleaseArtProfile', task ':shared_preferences_android:bundleLibRuntimeToJarRelease', task ':app:expandReleaseArtProfileWildcards', task ':app:extractProguardFiles', task ':app:mergeReleaseGeneratedProguardFiles', task ':app:processReleaseJavaRes', task ':shared_preferences_android:processReleaseJavaRes', task ':app:mergeReleaseJavaResource', task ':app:mergeReleaseStartupProfile', task ':app:minifyReleaseWithR8', task ':app:compileReleaseArtProfile', task ':app:compressReleaseAssets', task ':app:extractReleaseVersionControlInfo', task ':shared_preferences_android:createFullJarRelease', task ':shared_preferences_android:extractProguardFiles', task ':shared_preferences_android:generateReleaseLintModel', task ':shared_preferences_android:prepareLintJarForPublish', task ':app:generateReleaseLintVitalReportModel', task ':shared_preferences_android:stripReleaseDebugSymbols', task ':shared_preferences_android:copyReleaseJniLibsProjectAndLocalJars', task ':shared_preferences_android:extractDeepLinksForAarRelease', task ':shared_preferences_android:extractReleaseAnnotations', task ':shared_preferences_android:mergeReleaseConsumerProguardFiles', task ':shared_preferences_android:mergeReleaseJavaResource', task ':shared_preferences_android:syncReleaseLibJars', task ':shared_preferences_android:bundleReleaseLocalLintAar', task ':shared_preferences_android:lintVitalAnalyzeRelease', task ':shared_preferences_android:writeReleaseLintModelMetadata', task ':app:lintVitalAnalyzeRelease', task ':shared_preferences_android:generateReleaseLintVitalModel', task ':app:lintVitalReportRelease', task ':app:lintVitalRelease', task ':app:convertShrunkResourcesToBinaryRelease', task ':app:optimizeReleaseResources', task ':app:collectReleaseDependencies', task ':app:sdkReleaseDependencyData', task ':app:validateSigningRelease', task ':app:writeReleaseAppMetadata', task ':app:writeReleaseSigningConfigVersions', task ':app:packageRelease', task ':app:createReleaseApkListingFileRedirect', task ':app:assembleRelease', task ':shared_preferences_android:bundleReleaseAar', task ':shared_preferences_android:mapReleaseSourceSetPaths', task ':shared_preferences_android:mergeReleaseResources', task ':shared_preferences_android:verifyReleaseResources', task ':shared_preferences_android:assembleRelease']
+[   +1 ms] Tasks that were excluded: []
+[+2895 ms] work action Parameters of FilterShrinkerRulesTransform (Thread[#70,included builds Thread 2,5,main]) started.
+[   +1 ms] work action Parameters of ExtractAarTransform (Thread[#70,included builds Thread 2,5,main]) started.
+[   +2 ms] Resolve mutations for :app:ReleaseMinSdkCheck (Thread[#70,included builds Thread 2,5,main]) started.
+[        ] :app:ReleaseMinSdkCheck (Thread[#70,included builds Thread 2,5,main]) started.
+[ +158 ms] > Task :app:ReleaseMinSdkCheck
+[   +1 ms] Caching disabled for task ':app:ReleaseMinSdkCheck' because:
+[   +1 ms]   Build cache is disabled
+[   +4 ms] Task ':app:ReleaseMinSdkCheck' is not up-to-date because:
+[   +1 ms]   Task has not declared any outputs despite executing actions.
+[   +1 ms] Resolve mutations for :app:compileFlutterBuildRelease (Thread[#70,included builds Thread 2,5,main]) started.
+[ +179 ms] :app:compileFlutterBuildRelease (Thread[#52,Execution worker,5,main]) started.
+[+1951 ms] > Task :app:compileFlutterBuildRelease
+[        ] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\buildOutputCleanup\outputFiles.bin
+[   +3 ms] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\fileHashes\resourceHashesCache.bin
+[   +3 ms] Caching disabled for task ':app:compileFlutterBuildRelease' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Task ':app:compileFlutterBuildRelease' is not up-to-date because:
+[        ]   Task has failed previously.
+[  +84 ms] Starting process 'command 'D:\IT-120\flutter\bin\flutter.bat''. Working directory: C:\Users\stepsense Command: D:\IT-120\flutter\bin\flutter.bat --verbose assemble --no-version-check --depfile C:\Users\stepsense\build\app\intermediates\flutter\release/flutter_build.d --output C:\Users\stepsense\build\app\intermediates\flutter\release -dTargetFile=lib\main.dart -dTargetPlatform=android -dBuildMode=release -dTrackWidgetCreation=true -dTreeShakeIcons=true --DartDefines=RkxVVFRFUl9WRVJTSU9OPTMuMzguMw==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MTkwNzRkMTJmNw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049MTNlNjU4NzI1ZA==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC4x -dFlavor= -dAndroidArchs=android-arm64 -dMinSdkVersion=24 android_aot_bundle_release_android-arm64
+[ +206 ms] Successfully started process 'command 'D:\IT-120\flutter\bin\flutter.bat''
+[+23101 ms] [+6776 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [  +71 ms] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [   +2 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [   +4 ms] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +1 ms] [   +2 ms] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[   +1 ms] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[   +6 ms] [   +4 ms] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [   +9 ms] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +73 ms] [  +54 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [   +4 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[ +200 ms] [ +167 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [   +5 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[   +1 ms] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[ +294 ms] [ +282 ms] Initializing file store
+[ +109 ms] [ +114 ms] Skipping target: gen_localizations
+[   +1 ms] [   +6 ms] gen_dart_plugin_registrant: Starting due to {InvalidatedReasonKind.outputSetAddition: The following outputs were added to the output set: C:\Users\stepsense\.dart_tool\flutter_build\dart_plugin_registrant.dart, InvalidatedReasonKind.inputChanged: The following inputs have updated contents: C:\Users\stepsense\.dart_tool\package_config.json}
+[   +1 ms] [  +18 ms] dart_build: Starting due to {}
+[ +987 ms] [ +981 ms] Found plugin shared_preferences at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences-2.5.5\
+[ +111 ms] [  +84 ms] Found plugin shared_preferences_windows at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_windows-2.4.1\
+[   +1 ms] [  +55 ms] Found plugin path_provider_windows at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[  +91 ms] [ +100 ms] Found plugin shared_preferences_web at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_web-2.4.3\
+[   +4 ms] [  +27 ms] Found plugin shared_preferences_linux at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_linux-2.4.1\
+[  +89 ms] [  +39 ms] Found plugin path_provider_linux at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.2\
+[ +109 ms] [  +61 ms] Found plugin shared_preferences_foundation at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_foundation-2.5.7\
+[        ] [  +29 ms] Found plugin shared_preferences_android at C:\Users\rantet\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.23\
+[ +204 ms] [ +171 ms] Skipping generating dart_plugin_registrant.dart because it is up-to-date.
+[        ] [        ] gen_dart_plugin_registrant: Complete
+[        ] [   +6 ms] kernel_snapshot_program: Starting due to {}
+[        ] [  +18 ms] D:\IT-120\flutter\bin\cache\dart-sdk\bin\dartaotruntime.exe D:\IT-120\flutter\bin\cache\dart-sdk\bin\snapshots\frontend_server_aot.dart.snapshot --sdk-root D:\IT-120\flutter\bin\cache\artifacts\engine\common\flutter_patched_sdk_product/ --target=flutter --no-print-incremental-dependencies -DFLUTTER_VERSION=3.38.3 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=19074d12f7 -DFLUTTER_ENGINE_REVISION=13e658725d -DFLUTTER_DART_VERSION=3.10.1 -DFLUTTER_APP_FLAVOR= -Ddart.vm.profile=false -Ddart.vm.product=true --delete-tostring-package-uri=dart:ui --delete-tostring-package-uri=package:flutter --aot --tfa --target-os android --packages C:\Users\stepsense\.dart_tool\package_config.json --output-dill C:\Users\stepsense\.dart_tool\flutter_build\9be094761cce89b7f7eea28993a9c269\app.dill --depfile C:\Users\stepsense\.dart_tool\flutter_build\9be094761cce89b7f7eea28993a9c269\kernel_snapshot_program.d --source file:///C:/Users/stepsense/.dart_tool/flutter_build/dart_plugin_registrant.dart --source package:flutter/src/dart_plugin_registrant.dart -Dflutter.dart_plugin_registrant=file:///C:/Users/stepsense/.dart_tool/flutter_build/dart_plugin_registrant.dart --verbosity=error package:stepsense/main.dart
+[ +395 ms] [ +455 ms] No packages with native assets. Skipping native assets compilation.
+[   +2 ms] [   +7 ms] dart_build: Complete
+[ +101 ms] [  +25 ms] install_code_assets: Starting due to {}
+[   +1 ms] [  +23 ms] Writing native assets json to file:///C:/Users/stepsense/.dart_tool/flutter_build/9be094761cce89b7f7eea28993a9c269/native_assets.json.
+[        ] [  +19 ms] Writing C:\Users\stepsense\.dart_tool\flutter_build\9be094761cce89b7f7eea28993a9c269\native_assets.json done.
+[        ] [   +2 ms] install_code_assets: Complete
+[+109695 ms] [+109690 ms] kernel_snapshot_program: Complete
+[+19871 ms] [+19917 ms] android_aot_release_android-arm64: Starting due to {}
+[ +349 ms] [  +31 ms] targetingApplePlatform = false
+[        ] [        ] extractAppleDebugSymbols = true
+[   +4 ms] [        ] Will strip AOT snapshot during build.
+[   +2 ms] [   +3 ms] executing: D:\IT-120\flutter\bin\cache\artifacts\engine\android-arm64-release\windows-x64\gen_snapshot --deterministic --snapshot_kind=app-aot-elf --elf=C:\Users\stepsense\.dart_tool\flutter_build\9be094761cce89b7f7eea28993a9c269\arm64-v8a\app.so --strip C:\Users\stepsense\.dart_tool\flutter_build\9be094761cce89b7f7eea28993a9c269\app.dill
+[ +117 ms] [ +340 ms] aot_android_asset_bundle: Starting due to {}
+[+5157 ms] [+5243 ms] shaderc command: [D:\IT-120\flutter\bin\cache\artifacts\engine\windows-x64\impellerc.exe, --sksl, --runtime-stage-gles, --runtime-stage-gles3, --runtime-stage-vulkan, --iplr, --sl=C:\Users\stepsense\build\app\intermediates\flutter\release\flutter_assets\shaders/ink_sparkle.frag, --spirv=C:\Users\stepsense\build\app\intermediates\flutter\release\flutter_assets\shaders/ink_sparkle.frag.spirv, --input=D:\IT-120\flutter\packages\flutter\lib\src\material\shaders\ink_sparkle.frag, --input-type=frag, --include=D:\IT-120\flutter\packages\flutter\lib\src\material\shaders, --include=D:\IT-120\flutter\bin\cache\artifacts\engine\windows-x64\shader_lib]
+[   +2 ms] [   +3 ms] shaderc command: [D:\IT-120\flutter\bin\cache\artifacts\engine\windows-x64\impellerc.exe, --sksl, --runtime-stage-gles, --runtime-stage-gles3, --runtime-stage-vulkan, --iplr, --sl=C:\Users\stepsense\build\app\intermediates\flutter\release\flutter_assets\shaders/stretch_effect.frag, --spirv=C:\Users\stepsense\build\app\intermediates\flutter\release\flutter_assets\shaders/stretch_effect.frag.spirv, --input=D:\IT-120\flutter\packages\flutter\lib\src\material\shaders\stretch_effect.frag, --input-type=frag, --include=D:\IT-120\flutter\packages\flutter\lib\src\material\shaders, --include=D:\IT-120\flutter\bin\cache\artifacts\engine\windows-x64\shader_lib]
+[+1789 ms] [+1763 ms] Running command: D:\IT-120\flutter\bin\cache\dart-sdk\bin\dart.exe D:\IT-120\flutter\bin\cache\artifacts\engine\windows-x64\const_finder.dart.snapshot --kernel-file C:\Users\stepsense\.dart_tool\flutter_build\9be094761cce89b7f7eea28993a9c269\app.dill --class-library-uri package:flutter/src/widgets/icon_data.dart --class-name IconData --annotation-class-name _StaticIconProvider --annotation-class-library-uri package:flutter/src/widgets/icon_data.dart
+[+70165 ms] [+69930 ms] android_aot_release_android-arm64: Complete
+[+1839 ms] [+2014 ms] Persisting file store
+[        ] [  +11 ms] Done persisting file store
+flutter.bat : [ +730 ms] [ +738 ms] Target aot_android_asset_bundle failed: IconTreeShakerException: ConstFinder 
+failure: ../../runtime/vm/zone.cc: 96: error: Out of memory.
+At C:\Users\stepsense\run_build4.ps1:14 char:1
++ & D:\IT-120\flutter\bin\flutter.bat build apk --release --target-plat ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([ +730 ms] [ +7... Out of memory.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[   +2 ms]            version=3.10.1 (stable) (Tue Nov 18 11:02:31 2025 -0800) on "windows_x64"
+[        ]            pid=11168, thread=11216, isolate_group=main(000002B93DC6FFD0), isolate=(nil)(0000000000000000)
+[   +1 ms]            os=windows, arch=x64, comp=no, sim=no
+[        ]            isolate_instructions=7ff76ff68060, vm_instructions=7ff76ff68080
+[        ]            fp=ef96cfdf30, sp=ef96cfdee8, pc=7ff77024da13
+[   +1 ms]              pc 0x00007ff77024da13 fp 0x000000ef96cfdf30 Dart_DetectNullSafety+0x2dd303
+[        ]            -- End of DumpStackTrace
+[        ]            === Crash occurred when compiling package:kernel/ast.dart_Class_visitChildren in optimizing JIT 
+mode in CSE pass
+[        ]            *** BEGIN CFG
+[        ]            CSE
+[        ]            ==== package:kernel/ast.dart_Class_visitChildren (RegularFunction)
+[        ]            B0[graph]:0 {
+[        ]                  v0 <- Constant(#null) T{Null?}
+[        ]                  v1 <- Constant(#<optimized out>) T{Sentinel~}
+[        ]                  v34 <- Constant(#0) T{_Smi}
+[        ]                  v35 <- Constant(#1) T{_Smi}
+[        ]                  v55 <- Constant(#true) T{bool}
+[        ]                  v56 <- Constant(#TypeArguments: (H12ab3ec0) [Type: Constructor]) T{TypeArguments}
+[        ]                  v92 <- Constant(#TypeArguments: (H128f254) [Type: Procedure]) T{TypeArguments}
+[        ]                  v128 <- Constant(#TypeArguments: (H2f76bf2f) [Type: Field]) T{TypeArguments}
+[        ]                  v153 <- Constant(#_ImmutableList len:5) T{_ImmutableList}
+[        ]                  v209 <- Constant(#92) T{_Smi}
+[        ]            }
+[        ]            B1[function entry]:2 {
+[        ]                  v2 <- Parameter(0 @fp[3]) T{Class}
+[        ]                  v3 <- Parameter(1 @fp[2]) T{<:Visitor<dynamic>}
+[        ]            }
+[        ]                CheckStackOverflow:8(stack=0, loop=0)
+[        ]                v4 <- LoadField(v2 . annotations) T{<:List<Expression>}
+[        ]                goto:34 B62
+[        ]            B62[join]:32 pred(B1, B147) {
+[        ]                  v161 <- phi(v34 T{_Smi}, v167) alive T{_Smi}
+[        ]            }
+[        ]                CheckStackOverflow:38(stack=0, loop=1)
+[        ]                v427 <- LoadClassId(v4) T{_Smi}
+[  +59 ms]                Branch if EqualityCompare:14(v427 == v209) goto (148, 155)
+[        ]            B148[target]:2
+[        ]                v413 <- Redefinition(v4) T{<:List<Expression>}
+[        ]                v412 <- LoadField(v413 T{_GrowableList} . GrowableObjectArray.length) T{_Smi}
+[   +1 ms]                goto:10 B157
+[        ]            B155[target]:14
+[        ]                Branch if TestRange:14(v427 in [90-91]) goto (150, 156)
+[        ]            B150[target]:2
+[        ]                v419 <- Redefinition(v4) T{<:List<Expression>}
+[        ]                v418 <- LoadField(v419 T{<:List<Expression>} . Array.length {final}) T{_Smi}
+[        ]                goto:10 B157
+[        ]            B156[target]:14
+[        ]                v428 <- Redefinition(v427) T{_Smi}
+[        ]                CheckClassId:14(v428, DirtifyingList)
+[        ]                v426 <- Redefinition(v4 T{DirtifyingList}) T{DirtifyingList}
+[        ]                v424 <- LoadField(v426 . wrapped {final}) T{_GrowableList}
+[        ]                v564 <- LoadField(v424 T{_GrowableList} . GrowableObjectArray.length) T{_Smi}
+[        ]                goto:18 B157
+[        ]            B157[join]:15 pred(B148, B150, B156) {
+[        ]                  v429 <- phi(v412, v418, v564 T{_Smi}) alive T{_Smi}
+[        ]            }
+[        ]                Branch if RelationalOp:16(<, v161 T{_Smi}, v429 T{_Smi}) T{bool} goto (60, 61)
+[        ]            B60[target]:22
+[        ]                Branch if EqualityCompare:28(v427 T{_Smi} == v209) goto (140, 146)
+[        ]            B140[target]:2
+[        ]                v391 <- Redefinition(v4) T{<:List<Expression>}
+[        ]                v387 <- LoadField(v391 T{_GrowableList} . GrowableObjectArray.length) T{_Smi}
+[ +246 ms]                v651 <- UnboxInt64(v161 T{_Smi}) int64
+[        ]                v652 <- UnboxInt64(v387) int64
+[        ]                v388 <- GenericCheckBound:10(v652 T{_Smi}, v651 T{_Smi}) int64
+[        ]                v389 <- LoadField(v391 T{_GrowableList} . GrowableObjectArray.data) T{_List}
+[        ]                v390 <- LoadIndexed([_List] v389, v388) T{<:Expression}
+[        ]                goto:12 B147
+[        ]            B146[target]:28
+[        ]                v406 <- Redefinition(v427 T{_Smi}) T{_Smi}
+[        ]                CheckClassId:28(v406, DirtifyingList)
+[        ]                v404 <- Redefinition(v4 T{DirtifyingList}) T{DirtifyingList}
+[        ]                v398 <- LoadField(v404 . wrapped {final}) T{_GrowableList}
+[        ]                v400 <- LoadField(v398 . GrowableObjectArray.length) T{_Smi}
+[        ]                v401 <- CheckArrayBound:14(v400, v161 T{_Smi}) T{_Smi}
+[        ]                v402 <- LoadField(v398 . GrowableObjectArray.data) T{_List}
+[        ]                v403 <- LoadIndexed:14([_List] v402, v401) T{<:X0?}
+[        ]                goto:18 B147
+[        ]            B147[join]:29 pred(B140, B146) {
+[        ]                  v407 <- phi(v390, v403 T{<:X0?}) alive T{<:*?}
+[        ]            }
+[   +1 ms]                PolymorphicInstanceCall:30( accept<1>, v0 T{Null?}, v407 T{<:X0?}, v3 T{<:Visitor<dynamic>} 
+Targets[95: VariableGet cid 1265 cnt:319 trgt:'VariableGet.accept' | InstanceGet cid 1271 cnt:319 
+trgt:'InstanceGet.accept' | InstanceInvocation cid 1289 cnt:319 trgt:'InstanceInvocation.accept' | ThisExpression cid 
+1322 cnt:319 trgt:'ThisExpression.accept' | ExpressionStatement cid 1409 cnt:319 trgt:'ExpressionStatement.accept' | 
+Block cid 1410 cnt:319 trgt:'Block.accept' | VariableDeclaration cid 1428 cnt:319 trgt:'VariableDeclaration.accept' | 
+VoidType cid 1444 cnt:319 trgt:'VoidType.accept' | InterfaceType cid 1449 cnt:319 trgt:'InterfaceType.accept' | 
+FunctionType cid 1450 cnt:178 trgt:'FunctionType.accept' | cid 1334-1335 ConstantExpression cnt:155 
+trgt:'ConstantExpression.accept' | Procedure cid 1367 cnt:142 trgt:'Procedure.accept' | Let cid 1336 cnt:137 
+trgt:'Let.accept' | ReturnStatement cid 1423 cnt:111 trgt:'ReturnStatement.accept' | StaticInvocation cid 1298 cnt:85 
+trgt:'StaticInvocation.accept' | IfStatement cid 1422 cnt:84 trgt:'IfStatement.accept' | Field cid 1364 cnt:74 
+trgt:'Field.accept' | TypeParameterType cid 1459 cnt:67 trgt:'TypeParameterType.accept' | VariableSet cid 1266 cnt:62 
+trgt:'VariableSet.accept' | NamedType cid 1455 cnt:61 trgt:'NamedType.accept' | IntLiteral cid 1316 cnt:59 
+trgt:'IntLiteral.accept' | FieldInitializer cid 1354 cnt:56 trgt:'FieldInitializer.accept' | EqualsNull cid 1294 
+cnt:54 trgt:'EqualsNull.accept' | EqualsCall cid 1295 cnt:54 trgt:'EqualsCall.accept' | ConditionalExpression cid 1304 
+cnt:49 trgt:'ConditionalExpression.accept' | InstanceSet cid 1275 cnt:48 trgt:'InstanceSet.accept' | 
+ConstructorInvocation cid 1299 cnt:48 trgt:'ConstructorInvocation.accept' | DynamicType cid 1442 cnt:46 
+trgt:'DynamicType.accept' | LogicalExpression cid 1303 cnt:45 trgt:'LogicalExpression.accept' | Not cid 1301 cnt:42 
+trgt:'Not.accept' | NullLiteral cid 1319 cnt:41 trgt:'NullLiteral.accept' | Supertype cid 1435 cnt:39 
+trgt:'Supertype.accept' | StringLiteral cid 1315 cnt:38 trgt:'StringLiteral.accept' | BoolLiteral cid 1318 cnt:37 
+trgt:'BoolLiteral.accept' | NamedExpression cid 1284 cnt:32 trgt:'NamedExpression.accept' | NullType cid 1447 cnt:32 
+trgt:'NullType.accept' | Class cid 1254 cnt:31 trgt:'Class.accept' | NullCheck cid 1313 cnt:26 trgt:'NullCheck.accept' 
+| Throw cid 1324 cnt:24 trgt:'Throw.accept' | DoubleLiteral cid 1317 cnt:22 trgt:'DoubleLiteral.accept' | Constructor 
+cid 1365 cnt:20 trgt:'Constructor.accept' | SuperInitializer cid 1355 cnt:19 trgt:'SuperInitializer.accept' | 
+BlockExpression cid 1337 cnt:18 trgt:'BlockExpression.accept' | BreakStatement cid 1415 cnt:15 
+trgt:'BreakStatement.accept' | EmptyStatement cid 1412 cnt:14 trgt:'EmptyStatement.accept' | SwitchCase cid 1399 
+cnt:13 trgt:'SwitchCase.accept' | SuperMethodInvocation cid 1297 cnt:11 trgt:'SuperMethodInvocation.accept' | 
+AsExpression cid 1312 cnt:10 trgt:'AsExpression.accept' | TypeParameter cid 1432 cnt:10 trgt:'TypeParameter.accept' | 
+StaticGet cid 1280 cnt:9 trgt:'StaticGet.accept' | FunctionExpression cid 1333 cnt:9 trgt:'FunctionExpression.accept' 
+| IsExpression cid 1311 cnt:8 trgt:'IsExpression.accept' | Combinator cid 1362 cnt:8 trgt:'Combinator.accept' | 
+ForStatement cid 1419 cnt:8 trgt:'ForStatement.accept' | LabeledStatement cid 1414 cnt:7 
+trgt:'LabeledStatement.accept' | RecordType cid 1461 cnt:7 trgt:'RecordType.accept' | InstanceTearOff cid 1273 cnt:6 
+trgt:'InstanceTearOff.accept' | FunctionInvocation cid 1292 cnt:6 trgt:'FunctionInvocation.accept' | LibraryDependency 
+cid 1360 cnt:5 trgt:'LibraryDependency.accept' | StringConcatenation cid 1305 cnt:4 trgt:'StringConcatenation.accept' 
+| SwitchStatement cid 1402 cnt:4 trgt:'SwitchStatement.accept' | RecordIndexGet cid 1267 cnt:3 
+trgt:'RecordIndexGet.accept' | WhileStatement cid 1417 cnt:3 trgt:'WhileStatement.accept' | ExtensionType cid 1454 
+cnt:3 trgt:'ExtensionType.accept' | LocalFunctionInvocation cid 1293 cnt:2 trgt:'LocalFunctionInvocation.accept' | 
+LibraryPar
+[        ]                v167 <- BinarySmiOp:26(+, v161 T{_Smi}, v35) T{_Smi}
+[        ]                goto:36 B62
+[        ]            B61[target]:24
+[        ]                v5 <- LoadField(v2 . typeParameters {final}) T{_GrowableList}
+[        ]                goto:34 B175
+[        ]            B175[join]:32 pred(B61, B165) {
+[        ]                  v176 <- phi(v34 T{_Smi}, v182) alive T{_Smi}
+[        ]            }
+[        ]                CheckStackOverflow:38(stack=0, loop=1)
+[        ]                v462 <- Redefinition(v5) T{_GrowableList}
+[        ]                v461 <- LoadField(v462 . GrowableObjectArray.length) T{_Smi}
+[        ]                Branch if RelationalOp:16(<, v176 T{_Smi}, v461 T{_Smi}) T{bool} goto (165, 66)
+[        ]            B165[target]:22
+[        ]                v440 <- Redefinition(v5) T{_GrowableList}
+[        ]                v653 <- UnboxInt64(v176 T{_Smi}) int64
+[        ]                v654 <- UnboxInt64(v461 T{_Smi}) int64
+[        ]                v437 <- GenericCheckBound:10(v654 T{_Smi}, v653 T{_Smi}) int64
+[        ]                v438 <- LoadField(v440 . GrowableObjectArray.data) T{_List}
+[        ]                v439 <- LoadIndexed([_List] v438, v437) T{TypeParameter}
+[        ]                PolymorphicInstanceCall:30( accept<1>, v0 T{Null?}, v439, v3 T{<:Visitor<dynamic>} 
+Targets[95: VariableGet cid 1265 cnt:319 trgt:'VariableGet.accept' | InstanceGet cid 1271 cnt:319 
+trgt:'InstanceGet.accept' | InstanceInvocation cid 1289 cnt:319 trgt:'InstanceInvocation.accept' | ThisExpression cid 
+1322 cnt:319 trgt:'ThisExpression.accept' | ExpressionStatement cid 1409 cnt:319 trgt:'ExpressionStatement.accept' | 
+Block cid 1410 cnt:319 trgt:'Block.accept' | VariableDeclaration cid 1428 cnt:319 trgt:'VariableDeclaration.accept' | 
+VoidType cid 1444 cnt:319 trgt:'VoidType.accept' | InterfaceType cid 1449 cnt:319 trgt:'InterfaceType.accept' | 
+FunctionType cid 1450 cnt:178 trgt:'FunctionType.accept' | cid 1334-1335 ConstantExpression cnt:155 
+trgt:'ConstantExpression.accept' | Procedure cid 1367 cnt:142 trgt:'Procedure.accept' | Let cid 1336 cnt:137 
+trgt:'Let.accept' | ReturnStatement cid 1423 cnt:111 trgt:'ReturnStatement.accept' | StaticInvocation cid 1298 cnt:85 
+trgt:'StaticInvocation.accept' | IfStatement cid 1422 cnt:84 trgt:'IfStatement.accept' | Field cid 1364 cnt:74 
+trgt:'Field.accept' | TypeParameterType cid 1459 cnt:67 trgt:'TypeParameterType.accept' | VariableSet cid 1266 cnt:62 
+trgt:'VariableSet.accept' | NamedType cid 1455 cnt:61 trgt:'NamedType.accept' | IntLiteral cid 1316 cnt:59 
+trgt:'IntLiteral.accept' | FieldInitializer cid 1354 cnt:56 trgt:'FieldInitializer.accept' | EqualsNull cid 1294 
+cnt:54 trgt:'EqualsNull.accept' | EqualsCall cid 1295 cnt:54 trgt:'EqualsCall.accept' | ConditionalExpression cid 1304 
+cnt:49 trgt:'ConditionalExpression.accept' | InstanceSet cid 1275 cnt:48 trgt:'InstanceSet.accept' | 
+ConstructorInvocation cid 1299 cnt:48 trgt:'ConstructorInvocation.accept' | DynamicType cid 1442 cnt:46 
+trgt:'DynamicType.accept' | LogicalExpression cid 1303 cnt:45 trgt:'LogicalExpression.accept' | Not cid 1301 cnt:42 
+trgt:'Not.accept' | NullLiteral cid 1319 cnt:41 trgt:'NullLiteral.accept' | Supertype cid 1435 cnt:39 
+trgt:'Supertype.accept' | StringLiteral cid 1315 cnt:38 trgt:'StringLiteral.accept' | BoolLiteral cid 1318 cnt:37 
+trgt:'BoolLiteral.accept' | NamedExpression cid 1284 cnt:32 trgt:'NamedExpression.accept' | NullType cid 1447 cnt:32 
+trgt:'NullType.accept' | Class cid 1254 cnt:31 trgt:'Class.accept' | NullCheck cid 1313 cnt:26 trgt:'NullCheck.accept' 
+| Throw cid 1324 cnt:24 trgt:'Throw.accept' | DoubleLiteral cid 1317 cnt:22 trgt:'DoubleLiteral.accept' | Constructor 
+cid 1365 cnt:20 trgt:'Constructor.accept' | SuperInitializer cid 1355 cnt:19 trgt:'SuperInitializer.accept' | 
+BlockExpression cid 1337 cnt:18 trgt:'BlockExpression.accept' | BreakStatement cid 1415 cnt:15 
+trgt:'BreakStatement.accept' | EmptyStatement cid 1412 cnt:14 trgt:'EmptyStatement.accept' | SwitchCase cid 1399 
+cnt:13 trgt:'SwitchCase.accept' | SuperMethodInvocation cid 1297 cnt:11 trgt:'SuperMethodInvocation.accept' | 
+AsExpression cid 1312 cnt:10 trgt:'AsExpression.accept' | TypeParameter cid 1432 cnt:10 trgt:'TypeParameter.accept' | 
+StaticGet cid 1280 cnt:9 trgt:'StaticGet.accept' | FunctionExpression cid 1333 cnt:9 trgt:'FunctionExpression.accept' 
+| IsExpression cid 1311 cnt:8 trgt:'IsExpression.accept' | Combinator cid 1362 cnt:8 trgt:'Combinator.accept' | 
+ForStatement cid 1419 cnt:8 trgt:'ForStatement.accept' | LabeledStatement cid 1414 cnt:7 
+trgt:'LabeledStatement.accept' | RecordType cid 1461 cnt:7 trgt:'RecordType.accept' | InstanceTearOff cid 1273 cnt:6 
+trgt:'InstanceTearOff.accept' | FunctionInvocation cid 1292 cnt:6 trgt:'FunctionInvocation.accept' | LibraryDependency 
+cid 1360 cnt:5 trgt:'LibraryDependency.accept' | StringConcatenation cid 1305 cnt:4 trgt:'StringConcatenation.accept' 
+| SwitchStatement cid 1402 cnt:4 trgt:'SwitchStatement.accept' | RecordIndexGet cid 1267 cnt:3 
+trgt:'RecordIndexGet.accept' | WhileStatement cid 1417 cnt:3 trgt:'WhileStatement.accept' | ExtensionType cid 1454 
+cnt:3 trgt:'ExtensionType.accept' | LocalFunctionInvocation cid 1293 cnt:2 trgt:'LocalFunctionInvocation.accept' | 
+LibraryPart cid 136
+[        ]                v182 <- BinarySmiOp:26(+, v176 T{_Smi}, v35) T{_Smi}
+[        ]                goto:36 B175
+[        ]            B66[target]:24
+[        ]                v6 <- LoadField(v2 . supertype) T{Supertype?}
+[        ]                Branch if StrictCompare:24(===, v6, v0) goto (3, 4)
+[        ]            B3[target]:28
+[        ]                goto:36 B8
+[        ]            B4[target]:30
+[        ]                v16 <- Redefinition(v6 ^ T{Supertype}) T{Supertype}
+[        ]                CheckClass:26(v3 T{<:Visitor<Y0>} Cids[1: _ConstVisitor@22336199 etc.  cid 1210])
+[        ]                StaticCall:12( visitChildren<0> v16 T{Supertype}, v3 T{_ConstVisitor})
+[        ]                goto:38 B8
+[        ]            B8[join]:34 pred(B3, B4) {
+[        ]            }
+[        ]                v12 <- LoadField(v2 . implementedTypes) T{_GrowableList}
+[        ]                goto:34 B85
+[        ]            B85[join]:32 pred(B8, B75) {
+[        ]                  v26 <- phi(v34 T{_Smi}, v32) alive T{_Smi}
+[        ]            }
+[        ]                CheckStackOverflow:38(stack=0, loop=1)
+[        ]                v217 <- Redefinition(v12) T{_GrowableList}
+[        ]                v216 <- LoadField(v217 . GrowableObjectArray.length) T{_Smi}
+[        ]                Branch if RelationalOp:16(<, v26 T{_Smi}, v216 T{_Smi}) T{bool} goto (75, 12)
+[        ]            B75[target]:22
+[        ]                v194 <- Redefinition(v12) T{_GrowableList}
+[        ]                v655 <- UnboxInt64(v26 T{_Smi}) int64
+[        ]                v656 <- UnboxInt64(v216 T{_Smi}) int64
+[        ]                v191 <- GenericCheckBound:10(v656 T{_Smi}, v655 T{_Smi}) int64
+[        ]                v192 <- LoadField(v194 . GrowableObjectArray.data) T{_List}
+[        ]                v193 <- LoadIndexed([_List] v192, v191) T{Supertype}
+[        ]                PolymorphicInstanceCall:30( accept<1>, v0 T{Null?}, v193, v3 T{<:Visitor<dynamic>} 
+Targets[95: VariableGet cid 1265 cnt:319 trgt:'VariableGet.accept' | InstanceGet cid 1271 cnt:319 
+trgt:'InstanceGet.accept' | InstanceInvocation cid 1289 cnt:319 trgt:'InstanceInvocation.accept' | ThisExpression cid 
+1322 cnt:319 trgt:'ThisExpression.accept' | ExpressionStatement cid 1409 cnt:319 trgt:'ExpressionStatement.accept' | 
+Block cid 1410 cnt:319 trgt:'Block.accept' | VariableDeclaration cid 1428 cnt:319 trgt:'VariableDeclaration.accept' | 
+VoidType cid 1444 cnt:319 trgt:'VoidType.accept' | InterfaceType cid 1449 cnt:319 trgt:'InterfaceType.accept' | 
+FunctionType cid 1450 cnt:178 trgt:'FunctionType.accept' | cid 1334-1335 ConstantExpression cnt:155 
+trgt:'ConstantExpression.accept' | Procedure cid 1367 cnt:142 trgt:'Procedure.accept' | Let cid 1336 cnt:137 
+trgt:'Let.accept' | ReturnStatement cid 1423 cnt:111 trgt:'ReturnStatement.accept' | StaticInvocation cid 1298 cnt:85 
+trgt:'StaticInvocation.accept' | IfStatement cid 1422 cnt:84 trgt:'IfStatement.accept' | Field cid 1364 cnt:74 
+trgt:'Field.accept' | TypeParameterType cid 1459 cnt:67 trgt:'TypeParameterType.accept' | VariableSet cid 1266 cnt:62 
+trgt:'VariableSet.accept' | NamedType cid 1455 cnt:61 trgt:'NamedType.accept' | IntLiteral cid 1316 cnt:59 
+trgt:'IntLiteral.accept' | FieldInitializer cid 1354 cnt:56 trgt:'FieldInitializer.accept' | EqualsNull cid 1294 
+cnt:54 trgt:'EqualsNull.accept' | EqualsCall cid 1295 cnt:54 trgt:'EqualsCall.accept' | ConditionalExpression cid 1304 
+cnt:49 trgt:'ConditionalExpression.accept' | InstanceSet cid 1275 cnt:48 trgt:'InstanceSet.accept' | 
+ConstructorInvocation cid 1299 cnt:48 trgt:'ConstructorInvocation.accept' | DynamicType cid 1442 cnt:46 
+trgt:'DynamicType.accept' | LogicalExpression cid 1303 cnt:45 trgt:'LogicalExpression.accept' | Not cid 1301 cnt:42 
+trgt:'Not.accept' | NullLiteral cid 1319 cnt:41 trgt:'NullLiteral.accept' | Supertype cid 1435 cnt:39 
+trgt:'Supertype.accept' | StringLiteral cid 1315 cnt:38 trgt:'StringLiteral.accept' | BoolLiteral cid 1318 cnt:37 
+trgt:'BoolLiteral.accept' | NamedExpression cid 1284 cnt:32 trgt:'NamedExpression.accept' | NullType cid 1447 cnt:32 
+trgt:'NullType.accept' | Class cid 1254 cnt:31 trgt:'Class.accept' | NullCheck cid 1313 cnt:26 trgt:'NullCheck.accept' 
+| Throw cid 1324 cnt:24 trgt:'Throw.accept' | DoubleLiteral cid 1317 cnt:22 trgt:'DoubleLiteral.accept' | Constructor 
+cid 1365 cnt:20 trgt:'Constructor.accept' | SuperInitializer cid 1355 cnt:19 trgt:'SuperInitializer.accept' | 
+BlockExpression cid 1337 cnt:18 trgt:'BlockExpression.accept' | BreakStatement cid 1415 cnt:15 
+trgt:'BreakStatement.accept' | EmptyStatement cid 1412 cnt:14 trgt:'EmptyStatement.accept' | SwitchCase cid 1399 
+cnt:13 trgt:'SwitchCase.accept' | SuperMethodInvocation cid 1297 cnt:11 trgt:'SuperMethodInvocation.accept' | 
+AsExpression cid 1312 cnt:10 trgt:'AsExpression.accept' | TypeParameter cid 1432 cnt:10 trgt:'TypeParameter.accept' | 
+StaticGet cid 1280 cnt:9 trgt:'StaticGet.accept' | FunctionExpression cid 1333 cnt:9 trgt:'FunctionExpression.accept' 
+| IsExpression cid 1311 cnt:8 trgt:'IsExpression.accept' | Combinator cid 1362 cnt:8 trgt:'Combinator.accept' | 
+ForStatement cid 1419 cnt:8 trgt:'ForStatement.accept' | LabeledStatement cid 1414 cnt:7 
+trgt:'LabeledStatement.accept' | RecordType cid 1461 cnt:7 trgt:'RecordType.accept' | InstanceTearOff cid 1273 cnt:6 
+trgt:'InstanceTearOff.accept' | FunctionInvocation cid 1292 cnt:6 trgt:'FunctionInvocation.accept' | LibraryDependency 
+cid 1360 cnt:5 trgt:'LibraryDependency.accept' | StringConcatenation cid 1305 cnt:4 trgt:'StringConcatenation.accept' 
+| SwitchStatement cid 1402 cnt:4 trgt:'SwitchStatement.accept' | RecordIndexGet cid 1267 cnt:3 
+trgt:'RecordIndexGet.accept' | WhileStatement cid 1417 cnt:3 trgt:'WhileStatement.accept' | ExtensionType cid 1454 
+cnt:3 trgt:'ExtensionType.accept' | LocalFunctionInvocation cid 1293 cnt:2 trgt:'LocalFunctionInvocation.accept' | 
+LibraryPart cid 136
+[+25558 ms]                v32 <- BinarySmiOp:26(+, v26 T{_Smi}, v35) T{_Smi}
+[        ]                goto:36 B85
+[        ]            B12[target]:24
+[        ]                v491 <- LoadField(v2 . lazyBuilder) T{_Closure?}
+[        ]                Branch if StrictCompare:18(!==, v491, v0 T{Null?}) goto (180, 181)
+[        ]            B180[target]:22
+[        ]                v494 <- Redefinition(v491 ^ T{_Closure}) T{_Closure}
+[        ]                StoreField(v2 . lazyBuilder = v0)
+[        ]                v492 <- LoadField(v494 . Closure.function {final}) T{Function}
+[        ]                v493 <- ClosureCall:30( function=v492<0>, v494)
+[        ]                goto:36 B182
+[        ]            B181[target]:32
+[        ]                goto:38 B182
+[        ]            B182[join]:34 pred(B180, B181)
+[        ]                v40 <- LoadField(v2 . dirty) T{bool}
+[        ]                Branch if StrictCompare:16(===, v40, v55 T{bool}) goto (16, 17)
+[        ]            B16[target]:20
+[        ]                RecordCoverage()
+[        ]                RecordCoverage()
+[        ]                v47 <- LoadField(v2 T{Class} . _constructorsInternal@32479794) T{_GrowableList}
+[        ]                goto:26 B21
+[        ]            B17[target]:28
+[        ]                v42 <- LoadField(v2 . _constructorsView@32479794) T{DirtifyingList?}
+[        ]                Branch if StrictCompare:34(===, v42, v0 T{Null?}) goto (18, 19)
+[        ]            B18[target]:38
+[        ]                v45 <- AllocateObject:40(cls=DirtifyingList, v56 T{TypeArguments}) T{DirtifyingList}
+[        ]                v46 <- LoadField(v2 . _constructorsInternal@32479794) T{_GrowableList}
+[        ]                StoreField(v45 T{DirtifyingList} . dirtifyClass = v2 T{Class})
+[        ]                StoreField(v45 T{DirtifyingList} . wrapped = v46 T{_GrowableList})
+[        ]                GuardFieldType:46(_constructorsView@32479794 <nullable DirtifyingList {trivially-exact(1)}>, 
+v45)
+[        ]                StoreField(v2 . _constructorsView@32479794 = v45)
+[        ]                goto:52 B20
+[        ]            B19[target]:48
+[        ]                v48 <- Redefinition(v42 ^ T{DirtifyingList}) T{DirtifyingList}
+[        ]                goto:54 B20
+[        ]            B20[join]:50 pred(B18, B19) {
+[        ]                  v43 <- phi(v45, v48) alive T{DirtifyingList}
+[        ]            }
+[        ]                goto:58 B21
+[        ]            B21[join]:65 pred(B16, B20) {
+[        ]                  v57 <- phi(v47, v43) alive T{<:*}
+[        ]            }
+[        ]                goto:34 B26
+[        ]            B26[join]:32 pred(B21, B93) {
+[        ]                  v65 <- phi(v34 T{_Smi}, v71) alive T{_Smi}
+[        ]            }
+[        ]                CheckStackOverflow:38(stack=0, loop=1)
+[        ]                v280 <- LoadClassId(v57) T{_Smi}
+[        ]                Branch if EqualityCompare:14(v280 == v209) goto (94, 101)
+[        ]            B94[target]:2
+[        ]                v266 <- Redefinition(v57) T{<:*}
+[        ]                v265 <- LoadField(v266 T{_GrowableList} . GrowableObjectArray.length) T{_Smi}
+[        ]                goto:10 B103
+[        ]            B101[target]:14
+[        ]                Branch if TestRange:14(v280 in [90-91]) goto (96, 102)
+[        ]            B96[target]:2
+[        ]                v272 <- Redefinition(v57) T{<:*}
+[        ]                v271 <- LoadField(v272 T{<:List<Constructor>} . Array.length {final}) T{_Smi}
+[        ]                goto:10 B103
+[        ]            B102[target]:14
+[        ]                v281 <- Redefinition(v280) T{_Smi}
+[        ]                CheckClassId:14(v281, DirtifyingList)
+[        ]                v279 <- Redefinition(v57 T{DirtifyingList}) T{DirtifyingList}
+[        ]                v277 <- LoadField(v279 . wrapped {final}) T{_GrowableList}
+[+5065 ms]                v549 <- LoadField(v277 T{_GrowableList} . GrowableObjectArray.length) T{_Smi}
+[        ]                goto:18 B103
+[        ]            B103[join]:15 pred(B94, B96, B102) {
+[        ]                  v282 <- phi(v265, v271, v549 T{_Smi}) alive T{_Smi}
+[        ]            }
+[   +1 ms]                Branch if RelationalOp:16(<, v65 T{_Smi}, v282 T{_Smi}) T{bool} goto (24, 25)
+[   +3 ms]            B24[target]:22
+[        ]                Branch if EqualityCompare:28(v280 T{_Smi} == v209) goto (86, 92)
+[        ]            B86[target]:2
+[        ]                v244 <- Redefinition(v57) T{<:*}
+[        ]                v240 <- LoadField(v244 T{_GrowableList} . GrowableObjectArray.length) T{_Smi}
+[        ]                v657 <- UnboxInt64(v65 T{_Smi}) int64
+[        ]                v658 <- UnboxInt64(v240) int64
+[        ]                v241 <- GenericCheckBound:10(v658 T{_Smi}, v657 T{_Smi}) int64
+[        ]                v242 <- LoadField(v244 T{_GrowableList} . GrowableObjectArray.data) T{_List}
+[        ]                v243 <- LoadIndexed([_List] v242, v241) T{<:X0?}
+[        ]                goto:12 B93
+[        ]            B92[target]:28
+[        ]                v259 <- Redefinition(v280 T{_Smi}) T{_Smi}
+[        ]                CheckClassId:28(v259, DirtifyingList)
+[        ]                v257 <- Redefinition(v57 T{DirtifyingList}) T{DirtifyingList}
+[        ]                v251 <- LoadField(v257 . wrapped {final}) T{_GrowableList}
+[        ]                v253 <- LoadField(v251 . GrowableObjectArray.length) T{_Smi}
+[   +1 ms]                v254 <- CheckArrayBound:14(v253, v65 T{_Smi}) T{_Smi}
+[        ]                v255 <- LoadField(v251 . GrowableObjectArray.data) T{_List}
+[        ]                v256 <- LoadIndexed:14([_List] v255, v254) T{<:X0?}
+[        ]                goto:18 B93
+[        ]            B93[join]:29 pred(B86, B92) {
+[        ]                  v260 <- phi(v243, v256 T{<:X0?}) alive T{<:X0?}
+[        ]            }
+[   +1 ms]                PolymorphicInstanceCall:30( accept<1>, v0 T{Null?}, v260 T{<:X0?}, v3 T{<:Visitor<dynamic>} 
+Targets[95: VariableGet cid 1265 cnt:319 trgt:'VariableGet.accept' | InstanceGet cid 1271 cnt:319 
+trgt:'InstanceGet.accept' | InstanceInvocation cid 1289 cnt:319 trgt:'InstanceInvocation.accept' | ThisExpression cid 
+1322 cnt:319 trgt:'ThisExpression.accept' | ExpressionStatement cid 1409 cnt:319 trgt:'ExpressionStatement.accept' | 
+Block cid 1410 cnt:319 trgt:'Block.accept' | VariableDeclaration cid 1428 cnt:319 trgt:'VariableDeclaration.accept' | 
+VoidType cid 1444 cnt:319 trgt:'VoidType.accept' | InterfaceType cid 1449 cnt:319 trgt:'InterfaceType.accept' | 
+FunctionType cid 1450 cnt:178 trgt:'FunctionType.accept' | cid 1334-1335 ConstantExpression cnt:155 
+trgt:'ConstantExpression.accept' | Procedure cid 1367 cnt:142 trgt:'Procedure.accept' | Let cid 1336 cnt:137 
+trgt:'Let.accept' | ReturnStatement cid 1423 cnt:111 trgt:'ReturnStatement.accept' | StaticInvocation cid 1298 cnt:85 
+trgt:'StaticInvocation.accept' | IfStatement cid 1422 cnt:84 trgt:'IfStatement.accept' | Field cid 1364 cnt:74 
+trgt:'Field.accept' | TypeParameterType cid 1459 cnt:67 trgt:'TypeParameterType.accept' | VariableSet cid 1266 cnt:62 
+trgt:'VariableSet.accept' | NamedType cid 1455 cnt:61 trgt:'NamedType.accept' | IntLiteral cid 1316 cnt:59 
+trgt:'IntLiteral.accept' | FieldInitializer cid 1354 cnt:56 trgt:'FieldInitializer.accept' | EqualsNull cid 1294 
+cnt:54 trgt:'EqualsNull.accept' | EqualsCall cid 1295 cnt:54 trgt:'EqualsCall.accept' | ConditionalExpression cid 1304 
+cnt:49 trgt:'ConditionalExpression.accept' | InstanceSet cid 1275 cnt:48 trgt:'InstanceSet.accept' | 
+ConstructorInvocation cid 1299 cnt:48 trgt:'ConstructorInvocation.accept' | DynamicType cid 1442 cnt:46 
+trgt:'DynamicType.accept' | LogicalExpression cid 1303 cnt:45 trgt:'LogicalExpression.accept' | Not cid 1301 cnt:42 
+trgt:'Not.accept' | NullLiteral cid 1319 cnt:41 trgt:'NullLiteral.accept' | Supertype cid 1435 cnt:39 
+trgt:'Supertype.accept' | StringLiteral cid 1315 cnt:38 trgt:'StringLiteral.accept' | BoolLiteral cid 1318 cnt:37 
+trgt:'BoolLiteral.accept' | NamedExpression cid 1284 cnt:32 trgt:'NamedExpression.accept' | NullType cid 1447 cnt:32 
+trgt:'NullType.accept' | Class cid 1254 cnt:31 trgt:'Class.accept' | NullCheck cid 1313 cnt:26 trgt:'NullCheck.accept' 
+| Throw cid 1324 cnt:24 trgt:'Throw.accept' | DoubleLiteral cid 1317 cnt:22 trgt:'DoubleLiteral.accept' | Constructor 
+cid 1365 cnt:20 trgt:'Constructor.accept' | SuperInitializer cid 1355 cnt:19 trgt:'SuperInitializer.accept' | 
+BlockExpression cid 1337 cnt:18 trgt:'BlockExpression.accept' | BreakStatement cid 1415 cnt:15 
+trgt:'BreakStatement.accept' | EmptyStatement cid 1412 cnt:14 trgt:'EmptyStatement.accept' | SwitchCase cid 1399 
+cnt:13 trgt:'SwitchCase.accept' | SuperMethodInvocation cid 1297 cnt:11 trgt:'SuperMethodInvocation.accept' | 
+AsExpression cid 1312 cnt:10 trgt:'AsExpression.accept' | TypeParameter cid 1432 cnt:10 trgt:'TypeParameter.accept' | 
+StaticGet cid 1280 cnt:9 trgt:'StaticGet.accept' | FunctionExpression cid 1333 cnt:9 trgt:'FunctionExpression.accept' 
+| IsExpression cid 1311 cnt:8 trgt:'IsExpression.accept' | Combinator cid 1362 cnt:8 trgt:'Combinator.accept' | 
+ForStatement cid 1419 cnt:8 trgt:'ForStatement.accept' | LabeledStatement cid 1414 cnt:7 
+trgt:'LabeledStatement.accept' | RecordType cid 1461 cnt:7 trgt:'RecordType.accept' | InstanceTearOff cid 1273 cnt:6 
+trgt:'InstanceTearOff.accept' | FunctionInvocation cid 1292 cnt:6 trgt:'FunctionInvocation.accept' | LibraryDependency 
+cid 1360 cnt:5 trgt:'LibraryDependency.accept' | StringConcatenation cid 1305 cnt:4 trgt:'StringConcatenation.accept' 
+| SwitchStatement cid 1402 cnt:4 trgt:'SwitchStatement.accept' | RecordIndexGet cid 1267 cnt:3 
+trgt:'RecordIndexGet.accept' | WhileStatement cid 1417 cnt:3 trgt:'WhileStatement.accept' | ExtensionType cid 1454 
+cnt:3 trgt:'ExtensionType.accept' | LocalFunctionInvocation cid 1293 cnt:2 trgt:'LocalFunctionInvocation.accept' | 
+LibraryPar
+[+4326 ms]                v71 <- BinarySmiOp:26(+, v65 T{_Smi}, v35) T{_Smi}
+[        ]                goto:36 B26
+[        ]            B25[target]:24
+[        ]                v509 <- LoadField(v2 . lazyBuilder) T{_Closure?}
+[        ]                Branch if StrictCompare:18(!==, v509, v0 T{Null?}) goto (187, 188)
+[        ]            B187[target]:22
+[        ]                v512 <- Redefinition(v509 ^ T{_Closure}) T{_Closure}
+[        ]                StoreField(v2 . lazyBuilder = v0)
+[        ]                v510 <- LoadField(v512 . Closure.function {final}) T{Function}
+[        ]                v511 <- ClosureCall:30( function=v510<0>, v512)
+[        ]                goto:36 B189
+[        ]            B188[target]:32
+[        ]                goto:38 B189
+[        ]            B189[join]:34 pred(B187, B188)
+[        ]                v77 <- LoadField(v2 . dirty) T{bool}
+[        ]                Branch if StrictCompare:16(===, v77, v55 T{bool}) goto (29, 30)
+[        ]            B29[target]:20
+[        ]                RecordCoverage()
+[        ]                RecordCoverage()
+[        ]                v84 <- LoadField(v2 T{Class} . _proceduresInternal@32479794) T{_GrowableList}
+[        ]                goto:26 B34
+[        ]            B30[target]:28
+[        ]                v79 <- LoadField(v2 . _proceduresView@32479794) T{DirtifyingList?}
+[        ]                Branch if StrictCompare:34(===, v79, v0 T{Null?}) goto (31, 32)
+[        ]            B31[target]:38
+[        ]                v82 <- AllocateObject:40(cls=DirtifyingList, v92 T{TypeArguments}) T{DirtifyingList}
+[        ]                v83 <- LoadField(v2 . _proceduresInternal@32479794) T{_GrowableList}
+[        ]                StoreField(v82 T{DirtifyingList} . dirtifyClass = v2 T{Class})
+[        ]                StoreField(v82 T{DirtifyingList} . wrapped = v83 T{_GrowableList})
+[        ]                GuardFieldType:46(_proceduresView@32479794 <nullable DirtifyingList {trivially-exact(1)}>, 
+v82)
+[        ]                StoreField(v2 . _proceduresView@32479794 = v82)
+[        ]                goto:52 B33
+[ +274 ms]            B32[target]:48
+[        ]                v85 <- Redefinition(v79 ^ T{DirtifyingList}) T{DirtifyingList}
+[        ]                goto:54 B33
+[        ]            B33[join]:50 pred(B31, B32) {
+[        ]                  v80 <- phi(v82, v85) alive T{DirtifyingList}
+[        ]            }
+[        ]                goto:58 B34
+[        ]            B34[join]:69 pred(B29, B33) {
+[        ]                  v93 <- phi(v84, v80) alive T{<:*}
+[        ]            }
+[        ]                goto:34 B39
+[        ]            B39[join]:32 pred(B34, B111) {
+[        ]                  v101 <- phi(v34 T{_Smi}, v107) alive T{_Smi}
+[        ]            }
+[        ]                CheckStackOverflow:38(stack=0, loop=1)
+[        ]                v329 <- LoadClassId(v93) T{_Smi}
+[        ]                Branch if EqualityCompare:14(v329 == v209) goto (112, 119)
+[        ]            B112[target]:2
+[        ]                v315 <- Redefinition(v93) T{<:*}
+[        ]                v314 <- LoadField(v315 T{_GrowableList} . GrowableObjectArray.length) T{_Smi}
+[        ]                goto:10 B121
+[        ]            B119[target]:14
+[        ]                Branch if TestRange:14(v329 in [90-91]) goto (114, 120)
+[        ]            B114[target]:2
+[        ]                v321 <- Redefinition(v93) T{<:*}
+[        ]                v320 <- LoadField(v321 T{<:List<Procedure>} . Array.length {final}) T{_Smi}
+[        ]                goto:10 B121
+[        ]            B120[target]:14
+[        ]                v330 <- Redefinition(v329) T{_Smi}
+[   +7 ms]                CheckClassId:14(v330, DirtifyingList)
+[        ]                v328 <- Redefinition(v93 T{DirtifyingList}) T{DirtifyingList}
+[        ]                v326 <- LoadField(v328 . wrapped {final}) T{_GrowableList}
+[        ]                v554 <- LoadField(v326 T{_GrowableList} . GrowableObjectArray.length) T{_Smi}
+[        ]                goto:18 B121
+[  +11 ms]            B121[join]:15 pred(B112, B114, B120) {
+[        ]                  v331 <- phi(v314, v320, v554 T{_Smi}) alive T{_Smi}
+[        ]            }
+[        ]                Branch if RelationalOp:16(<, v101 T{_Smi}, v331 T{_Smi}) T{bool} goto (37, 38)
+[        ]            B37[target]:22
+[        ]                Branch if EqualityCompare:28(v329 T{_Smi} == v209) goto (104, 110)
+[        ]            B104[target]:2
+[  +45 ms]                v293 <- Redefinition(v93) T{<:*}
+[        ]                v289 <- LoadField(v293 T{_GrowableList} . GrowableObjectArray.length) T{_Smi}
+[        ]                v659 <- UnboxInt64(v101 T{_Smi}) int64
+[        ]                v660 <- UnboxInt64(v289) int64
+[        ]                v290 <- GenericCheckBound:10(v660 T{_Smi}, v659 T{_Smi}) int64
+[        ]                v291 <- LoadField(v293 T{_GrowableList} . GrowableObjectArray.data) T{_List}
+[        ]                v292 <- LoadIndexed([_List] v291, v290) T{<:X0?}
+[        ]                goto:12 B111
+[        ]            B110[target]:28
+[        ]                v308 <- Redefinition(v329 T{_Smi}) T{_Smi}
+[        ]                CheckClassId:28(v308, DirtifyingList)
+[        ]                v306 <- Redefinition(v93 T{DirtifyingList}) T{DirtifyingList}
+[        ]                v300 <- LoadField(v306 . wrapped {final}) T{_GrowableList}
+[        ]                v302 <- LoadField(v300 . GrowableObjectArray.length) T{_Smi}
+[        ]                v303 <- CheckArrayBound:14(v302, v101 T{_Smi}) T{_Smi}
+[        ]                v304 <- LoadField(v300 . GrowableObjectArray.data) T{_List}
+[        ]                v305 <- LoadIndexed:14([_List] v304, v303) T{<:X0?}
+[        ]                goto:18 B111
+[        ]            B111[join]:29 pred(B104, B110) {
+[        ]                  v309 <- phi(v292, v305 T{<:X0?}) alive T{<:X0?}
+[        ]            }
+[        ]                PolymorphicInstanceCall:30( accept<1>, v0 T{Null?}, v309 T{<:X0?}, v3 T{<:Visitor<dynamic>} 
+Targets[95: VariableGet cid 1265 cnt:319 trgt:'VariableGet.accept' | InstanceGet cid 1271 cnt:319 
+trgt:'InstanceGet.accept' | InstanceInvocation cid 1289 cnt:319 trgt:'InstanceInvocation.accept' | ThisExpression cid 
+1322 cnt:319 trgt:'ThisExpression.accept' | ExpressionStatement cid 1409 cnt:319 trgt:'ExpressionStatement.accept' | 
+Block cid 1410 cnt:319 trgt:'Block.accept' | VariableDeclaration cid 1428 cnt:319 trgt:'VariableDeclaration.accept' | 
+VoidType cid 1444 cnt:319 trgt:'VoidType.accept' | InterfaceType cid 1449 cnt:319 trgt:'InterfaceType.accept' | 
+FunctionType cid 1450 cnt:178 trgt:'FunctionType.accept' | cid 1334-1335 ConstantExpression cnt:155 
+trgt:'ConstantExpression.accept' | Procedure cid 1367 cnt:142 trgt:'Procedure.accept' | Let cid 1336 cnt:137 
+trgt:'Let.accept' | ReturnStatement cid 1423 cnt:111 trgt:'ReturnStatement.accept' | StaticInvocation cid 1298 cnt:85 
+trgt:'StaticInvocation.accept' | IfStatement cid 1422 cnt:84 trgt:'IfStatement.accept' | Field cid 1364 cnt:74 
+trgt:'Field.accept' | TypeParameterType cid 1459 cnt:67 trgt:'TypeParameterType.accept' | VariableSet cid 1266 cnt:62 
+trgt:'VariableSet.accept' | NamedType cid 1455 cnt:61 trgt:'NamedType.accept' | IntLiteral cid 1316 cnt:59 
+trgt:'IntLiteral.accept' | FieldInitializer cid 1354 cnt:56 trgt:'FieldInitializer.accept' | EqualsNull cid 1294 
+cnt:54 trgt:'EqualsNull.accept' | EqualsCall cid 1295 cnt:54 trgt:'EqualsCall.accept' | ConditionalExpression cid 1304 
+cnt:49 trgt:'ConditionalExpression.accept' | InstanceSet cid 1275 cnt:48 trgt:'InstanceSet.accept' | 
+ConstructorInvocation cid 1299 cnt:48 trgt:'ConstructorInvocation.accept' | DynamicType cid 1442 cnt:46 
+trgt:'DynamicType.accept' | LogicalExpression cid 1303 cnt:45 trgt:'LogicalExpression.accept' | Not cid 1301 cnt:42 
+trgt:'Not.accept' | NullLiteral cid 1319 cnt:41 trgt:'NullLiteral.accept' | Supertype cid 1435 cnt:39 
+trgt:'Supertype.accept' | StringLiteral cid 1315 cnt:38 trgt:'StringLiteral.accept' | BoolLiteral cid 1318 cnt:37 
+trgt:'BoolLiteral.accept' | NamedExpression cid 1284 cnt:32 trgt:'NamedExpression.accept' | NullType cid 1447 cnt:32 
+trgt:'NullType.accept' | Class cid 1254 cnt:31 trgt:'Class.accept' | NullCheck cid 1313 cnt:26 trgt:'NullCheck.accept' 
+| Throw cid 1324 cnt:24 trgt:'Throw.accept' | DoubleLiteral cid 1317 cnt:22 trgt:'DoubleLiteral.accept' | Constructor 
+cid 1365 cnt:20 trgt:'Constructor.accept' | SuperInitializer cid 1355 cnt:19 trgt:'SuperInitializer.accept' | 
+BlockExpression cid 1337 cnt:18 trgt:'BlockExpression.accept' | BreakStatement cid 1415 cnt:15 
+trgt:'BreakStatement.accept' | EmptyStatement cid 1412 cnt:14 trgt:'EmptyStatement.accept' | SwitchCase cid 1399 
+cnt:13 trgt:'SwitchCase.accept' | SuperMethodInvocation cid 1297 cnt:11 trgt:'SuperMethodInvocation.accept' | 
+AsExpression cid 1312 cnt:10 trgt:'AsExpression.accept' | TypeParameter cid 1432 cnt:10 trgt:'TypeParameter.accept' | 
+StaticGet cid 1280 cnt:9 trgt:'StaticGet.accept' | FunctionExpression cid 1333 cnt:9 trgt:'FunctionExpression.accept' 
+| IsExpression cid 1311 cnt:8 trgt:'IsExpression.accept' | Combinator cid 1362 cnt:8 trgt:'Combinator.accept' | 
+ForStatement cid 1419 cnt:8 trgt:'ForStatement.accept' | LabeledStatement cid 1414 cnt:7 
+trgt:'LabeledStatement.accept' | RecordType cid 1461 cnt:7 trgt:'RecordType.accept' | InstanceTearOff cid 1273 cnt:6 
+trgt:'InstanceTearOff.accept' | FunctionInvocation cid 1292 cnt:6 trgt:'FunctionInvocation.accept' | LibraryDependency 
+cid 1360 cnt:5 trgt:'LibraryDependency.accept' | StringConcatenation cid 1305 cnt:4 trgt:'StringConcatenation.accept' 
+| SwitchStatement cid 1402 cnt:4 trgt:'SwitchStatement.accept' | RecordIndexGet cid 1267 cnt:3 
+trgt:'RecordIndexGet.accept' | WhileStatement cid 1417 cnt:3 trgt:'WhileStatement.accept' | ExtensionType cid 1454 
+cnt:3 trgt:'ExtensionType.accept' | LocalFunctionInvocation cid 1293 cnt:2 trgt:'LocalFunctionInvocation.accept' | 
+LibraryPar
+[   +5 ms]                v107 <- BinarySmiOp:26(+, v101 T{_Smi}, v35) T{_Smi}
+[        ]                goto:36 B39
+[ +245 ms]            B38[target]:24
+[   +1 ms]                v527 <- LoadField(v2 . lazyBuilder) T{_Closure?}
+[        ]                Branch if StrictCompare:18(!==, v527, v0 T{Null?}) goto (194, 195)
+[        ]            B194[target]:22
+[        ]                v530 <- Redefinition(v527 ^ T{_Closure}) T{_Closure}
+[        ]                StoreField(v2 . lazyBuilder = v0)
+[        ]                v528 <- LoadField(v530 . Closure.function {final}) T{Function}
+[        ]                v529 <- ClosureCall:30( function=v528<0>, v530)
+[        ]                goto:36 B196
+[        ]            B195[target]:32
+[        ]                goto:38 B196
+[        ]            B196[join]:34 pred(B194, B195)
+[        ]                v113 <- LoadField(v2 . dirty) T{bool}
+[        ]                Branch if StrictCompare:16(===, v113, v55 T{bool}) goto (42, 43)
+[        ]            B42[target]:20
+[        ]                RecordCoverage()
+[        ]                RecordCoverage()
+[        ]                v120 <- LoadField(v2 T{Class} . _fieldsInternal@32479794) T{_GrowableList}
+[        ]                goto:26 B47
+[        ]            B43[target]:28
+[        ]                v115 <- LoadField(v2 . _fieldsView@32479794) T{DirtifyingList?}
+[        ]                Branch if StrictCompare:34(===, v115, v0 T{Null?}) goto (44, 45)
+[        ]            B44[target]:38
+[        ]                v118 <- AllocateObject:40(cls=DirtifyingList, v128 T{TypeArguments}) T{DirtifyingList}
+[        ]                v119 <- LoadField(v2 . _fieldsInternal@32479794) T{_GrowableList}
+[        ]                StoreField(v118 T{DirtifyingList} . dirtifyClass = v2 T{Class})
+[        ]                StoreField(v118 T{DirtifyingList} . wrapped = v119 T{_GrowableList})
+[        ]                GuardFieldType:46(_fieldsView@32479794 <nullable DirtifyingList {trivially-exact(1)}>, v118)
+[        ]                StoreField(v2 . _fieldsView@32479794 = v118)
+[        ]                goto:52 B46
+[        ]            B45[target]:48
+[        ]                v121 <- Redefinition(v115 ^ T{DirtifyingList}) T{DirtifyingList}
+[        ]                goto:54 B46
+[        ]            B46[join]:50 pred(B44, B45) {
+[        ]                  v116 <- phi(v118, v121) alive T{DirtifyingList}
+[        ]            }
+[        ]                goto:58 B47
+[        ]            B47[join]:73 pred(B42, B46) {
+[        ]                  v129 <- phi(v120, v116) alive T{<:*}
+[        ]            }
+[        ]                goto:34 B52
+[        ]            B52[join]:32 pred(B47, B129) {
+[        ]                  v137 <- phi(v34 T{_Smi}, v143) alive T{_Smi}
+[        ]            }
+[        ]                CheckStackOverflow:38(stack=0, loop=1)
+[        ]                v378 <- LoadClassId(v129) T{_Smi}
+[        ]                Branch if EqualityCompare:14(v378 == v209) goto (130, 137)
+[        ]            B130[target]:2
+[        ]                v364 <- Redefinition(v129) T{<:*}
+[        ]                v363 <- LoadField(v364 T{_GrowableList} . GrowableObjectArray.length) T{_Smi}
+[   +4 ms]                goto:10 B139
+[        ]            B137[target]:14
+[        ]                Branch if TestRange:14(v378 in [90-91]) goto (132, 138)
+[        ]            B132[target]:2
+[        ]                v370 <- Redefinition(v129) T{<:*}
+[        ]                v369 <- LoadField(v370 T{<:List<Field>} . Array.length {final}) T{_Smi}
+[        ]                goto:10 B139
+[        ]            B138[target]:14
+[        ]                v379 <- Redefinition(v378) T{_Smi}
+[        ]                CheckClassId:14(v379, DirtifyingList)
+[        ]                v377 <- Redefinition(v129 T{DirtifyingList}) T{DirtifyingList}
+[        ]                v375 <- LoadField(v377 . wrapped {final}) T{_GrowableList}
+[        ]                v559 <- LoadField(v375 T{_GrowableList} . GrowableObjectArray.length) T{_Smi}
+[        ]                goto:18 B139
+[   +1 ms]            B139[join]:15 pred(B130, B132, B138) {
+[        ]                  v380 <- phi(v363, v369, v559 T{_Smi}) alive T{_Smi}
+[        ]            }
+[        ]                Branch if RelationalOp:16(<, v137 T{_Smi}, v380 T{_Smi}) T{bool} goto (50, 51)
+[        ]            B50[target]:22
+[        ]                Branch if EqualityCompare:28(v378 T{_Smi} == v209) goto (122, 128)
+[        ]            B122[target]:2
+[        ]                v342 <- Redefinition(v129) T{<:*}
+[        ]                v338 <- LoadField(v342 T{_GrowableList} . GrowableObjectArray.length) T{_Smi}
+[        ]                v661 <- UnboxInt64(v137 T{_Smi}) int64
+[        ]                v662 <- UnboxInt64(v338) int64
+[  +24 ms]                v339 <- GenericCheckBound:10(v662 T{_Smi}, v661 T{_Smi}) int64
+[        ]                v340 <- LoadField(v342 T{_GrowableList} . GrowableObjectArray.data) T{_List}
+[        ]                v341 <- LoadIndexed([_List] v340, v339) T{<:X0?}
+[        ]                goto:12 B129
+[        ]            B128[target]:28
+[        ]                v357 <- Redefinition(v378 T{_Smi}) T{_Smi}
+[        ]                CheckClassId:28(v357, DirtifyingList)
+[        ]                v355 <- Redefinition(v129 T{DirtifyingList}) T{DirtifyingList}
+[        ]                v349 <- LoadField(v355 . wrapped {final}) T{_GrowableList}
+[        ]                v351 <- LoadField(v349 . GrowableObjectArray.length) T{_Smi}
+[        ]                v352 <- CheckArrayBound:14(v351, v137 T{_Smi}) T{_Smi}
+[        ]                v353 <- LoadField(v349 . GrowableObjectArray.data) T{_List}
+[        ]                v354 <- LoadIndexed:14([_List] v353, v352) T{<:X0?}
+[        ]                goto:18 B129
+[        ]            B129[join]:29 pred(B122, B128) {
+[        ]                  v358 <- phi(v341, v354 T{<:X0?}) alive T{<:X0?}
+[        ]            }
+[        ]                PolymorphicInstanceCall:30( accept<1>, v0 T{Null?}, v358 T{<:X0?}, v3 T{<:Visitor<dynamic>} 
+Targets[95: VariableGet cid 1265 cnt:319 trgt:'VariableGet.accept' | InstanceGet cid 1271 cnt:319 
+trgt:'InstanceGet.accept' | InstanceInvocation cid 1289 cnt:319 trgt:'InstanceInvocation.accept' | ThisExpression cid 
+1322 cnt:319 trgt:'ThisExpression.accept' | ExpressionStatement cid 1409 cnt:319 trgt:'ExpressionStatement.accept' | 
+Block cid 1410 cnt:319 trgt:'Block.accept' | VariableDeclaration cid 1428 cnt:319 trgt:'VariableDeclaration.accept' | 
+VoidType cid 1444 cnt:319 trgt:'VoidType.accept' | InterfaceType cid 1449 cnt:319 trgt:'InterfaceType.accept' | 
+FunctionType cid 1450 cnt:178 trgt:'FunctionType.accept' | cid 1334-1335 ConstantExpression cnt:155 
+trgt:'ConstantExpression.accept' | Procedure cid 1367 cnt:142 trgt:'Procedure.accept' | Let cid 1336 cnt:137 
+trgt:'Let.accept' | ReturnStatement cid 1423 cnt:111 trgt:'ReturnStatement.accept' | StaticInvocation cid 1298 cnt:85 
+trgt:'StaticInvocation.accept' | IfStatement cid 1422 cnt:84 trgt:'IfStatement.accept' | Field cid 1364 cnt:74 
+trgt:'Field.accept' | TypeParameterType cid 1459 cnt:67 trgt:'TypeParameterType.accept' | VariableSet cid 1266 cnt:62 
+trgt:'VariableSet.accept' | NamedType cid 1455 cnt:61 trgt:'NamedType.accept' | IntLiteral cid 1316 cnt:59 
+trgt:'IntLiteral.accept' | FieldInitializer cid 1354 cnt:56 trgt:'FieldInitializer.accept' | EqualsNull cid 1294 
+cnt:54 trgt:'EqualsNull.accept' | EqualsCall cid 1295 cnt:54 trgt:'EqualsCall.accept' | ConditionalExpression cid 1304 
+cnt:49 trgt:'ConditionalExpression.accept' | InstanceSet cid 1275 cnt:48 trgt:'InstanceSet.accept' | 
+ConstructorInvocation cid 1299 cnt:48 trgt:'ConstructorInvocation.accept' | DynamicType cid 1442 cnt:46 
+trgt:'DynamicType.accept' | LogicalExpression cid 1303 cnt:45 trgt:'LogicalExpression.accept' | Not cid 1301 cnt:42 
+trgt:'Not.accept' | NullLiteral cid 1319 cnt:41 trgt:'NullLiteral.accept' | Supertype cid 1435 cnt:39 
+trgt:'Supertype.accept' | StringLiteral cid 1315 cnt:38 trgt:'StringLiteral.accept' | BoolLiteral cid 1318 cnt:37 
+trgt:'BoolLiteral.accept' | NamedExpression cid 1284 cnt:32 trgt:'NamedExpression.accept' | NullType cid 1447 cnt:32 
+trgt:'NullType.accept' | Class cid 1254 cnt:31 trgt:'Class.accept' | NullCheck cid 1313 cnt:26 trgt:'NullCheck.accept' 
+| Throw cid 1324 cnt:24 trgt:'Throw.accept' | DoubleLiteral cid 1317 cnt:22 trgt:'DoubleLiteral.accept' | Constructor 
+cid 1365 cnt:20 trgt:'Constructor.accept' | SuperInitializer cid 1355 cnt:19 trgt:'SuperInitializer.accept' | 
+BlockExpression cid 1337 cnt:18 trgt:'BlockExpression.accept' | BreakStatement cid 1415 cnt:15 
+trgt:'BreakStatement.accept' | EmptyStatement cid 1412 cnt:14 trgt:'EmptyStatement.accept' | SwitchCase cid 1399 
+cnt:13 trgt:'SwitchCase.accept' | SuperMethodInvocation cid 1297 cnt:11 trgt:'SuperMethodInvocation.accept' | 
+AsExpression cid 1312 cnt:10 trgt:'AsExpression.accept' | TypeParameter cid 1432 cnt:10 trgt:'TypeParameter.accept' | 
+StaticGet cid 1280 cnt:9 trgt:'StaticGet.accept' | FunctionExpression cid 1333 cnt:9 trgt:'FunctionExpression.accept' 
+| IsExpression cid 1311 cnt:8 trgt:'IsExpression.accept' | Combinator cid 1362 cnt:8 trgt:'Combinator.accept' | 
+ForStatement cid 1419 cnt:8 trgt:'ForStatement.accept' | LabeledStatement cid 1414 cnt:7 
+trgt:'LabeledStatement.accept' | RecordType cid 1461 cnt:7 trgt:'RecordType.accept' | InstanceTearOff cid 1273 cnt:6 
+trgt:'InstanceTearOff.accept' | FunctionInvocation cid 1292 cnt:6 trgt:'FunctionInvocation.accept' | LibraryDependency 
+cid 1360 cnt:5 trgt:'LibraryDependency.accept' | StringConcatenation cid 1305 cnt:4 trgt:'StringConcatenation.accept' 
+| SwitchStatement cid 1402 cnt:4 trgt:'SwitchStatement.accept' | RecordIndexGet cid 1267 cnt:3 
+trgt:'RecordIndexGet.accept' | WhileStatement cid 1417 cnt:3 trgt:'WhileStatement.accept' | ExtensionType cid 1454 
+cnt:3 trgt:'ExtensionType.accept' | LocalFunctionInvocation cid 1293 cnt:2 trgt:'LocalFunctionInvocation.accept' | 
+LibraryPar
+[+1220 ms]                v143 <- BinarySmiOp:26(+, v137 T{_Smi}, v35) T{_Smi}
+[        ]                goto:36 B52
+[        ]            B51[target]:24
+[        ]                DartReturn:78(v0)
+[        ]            *** END CFG
+[        ]            To disable icon tree shaking, pass --no-tree-shake-icons to the requested flutter build command
+[        ]            #0      IconTreeShaker._findConstants 
+(package:flutter_tools/src/build_system/targets/icon_tree_shaker.dart:303:7)
+[        ]            <asynchronous suspension>
+[        ]            #1      IconTreeShaker._getIconData 
+(package:flutter_tools/src/build_system/targets/icon_tree_shaker.dart:113:45)
+[        ]            <asynchronous suspension>
+[        ]            #2      IconTreeShaker.subsetFont 
+(package:flutter_tools/src/build_system/targets/icon_tree_shaker.dart:181:5)
+[        ]            <asynchronous suspension>
+[        ]            #3      copyAssets.<anonymous closure> 
+(package:flutter_tools/src/build_system/targets/assets.dart:151:25)
+[        ]            <asynchronous suspension>
+[        ]            #4      Future.wait.<anonymous closure> (dart:async/future.dart:546:21)
+[        ]            <asynchronous suspension>
+[        ]            #5      copyAssets (package:flutter_tools/src/build_system/targets/assets.dart:111:3)
+[        ]            <asynchronous suspension>
+[        ]            #6      AndroidAssetBundle.build 
+(package:flutter_tools/src/build_system/targets/android.dart:75:34)
+[        ]            <asynchronous suspension>
+[        ]            #7      _BuildInstance._invokeInternal 
+(package:flutter_tools/src/build_system/build_system.dart:873:9)
+[        ]            <asynchronous suspension>
+[        ]            #8      Future.wait.<anonymous closure> (dart:async/future.dart:546:21)
+[        ]            <asynchronous suspension>
+[        ]            #9      _BuildInstance.invokeTarget 
+(package:flutter_tools/src/build_system/build_system.dart:811:32)
+[        ]            <asynchronous suspension>
+[        ]            #10     FlutterBuildSystem.build 
+(package:flutter_tools/src/build_system/build_system.dart:631:16)
+[        ]            <asynchronous suspension>
+[        ]            #11     AssembleCommand.runCommand (package:flutter_tools/src/commands/assemble.dart:361:32)
+[        ]            <asynchronous suspension>
+[        ]            #12     FlutterCommand.run.<anonymous closure> 
+(package:flutter_tools/src/runner/flutter_command.dart:1559:27)
+[        ]            <asynchronous suspension>
+[        ]            #13     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+[        ]            <asynchronous suspension>
+[        ]            #14     CommandRunner.runCommand (package:args/command_runner.dart:212:13)
+[        ]            <asynchronous suspension>
+[        ]            #15     FlutterCommandRunner.runCommand.<anonymous closure> 
+(package:flutter_tools/src/runner/flutter_command_runner.dart:487:9)
+[   +3 ms]            <asynchronous suspension>
+[        ]            #16     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+[  +78 ms]            <asynchronous suspension>
+[        ]            #17     FlutterCommandRunner.runCommand 
+(package:flutter_tools/src/runner/flutter_command_runner.dart:422:5)
+[        ]            <asynchronous suspension>
+[        ]            #18     run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:104:11)
+[        ]            <asynchronous suspension>
+[        ]            #19     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+[        ]            <asynchronous suspension>
+[        ]            #20     main (package:flutter_tools/executable.dart:103:3)
+[        ]            <asynchronous suspension>
+[        ] [+2828 ms] 
+[        ]            #0      throwToolExit (package:flutter_tools/src/base/common.dart:34:3)
+[        ]            #1      AssembleCommand.runCommand (package:flutter_tools/src/commands/assemble.dart:379:7)
+[        ]            <asynchronous suspension>
+[        ]            #2      FlutterCommand.run.<anonymous closure> 
+(package:flutter_tools/src/runner/flutter_command.dart:1559:27)
+[        ]            <asynchronous suspension>
+[   +3 ms]            #3      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+[ +119 ms]            <asynchronous suspension>
+[        ]            #4      CommandRunner.runCommand (package:args/command_runner.dart:212:13)
+[        ]            <asynchronous suspension>
+[        ]            #5      FlutterCommandRunner.runCommand.<anonymous closure> 
+(package:flutter_tools/src/runner/flutter_command_runner.dart:487:9)
+[        ]            <asynchronous suspension>
+[        ]            #6      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+[        ]            <asynchronous suspension>
+[        ]            #7      FlutterCommandRunner.runCommand 
+(package:flutter_tools/src/runner/flutter_command_runner.dart:422:5)
+[        ]            <asynchronous suspension>
+[        ]            #8      run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:104:11)
+[        ]            <asynchronous suspension>
+[        ]            #9      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+[        ]            <asynchronous suspension>
+[        ]            #10     main (package:flutter_tools/executable.dart:103:3)
+[        ]            <asynchronous suspension>
+[        ] FAILURE: Build failed with an exception.
+[        ] * What went wrong:
+[        ] Execution failed for task ':app:compileFlutterBuildRelease'.
+[        ] > Process 'command 'D:\IT-120\flutter\bin\flutter.bat'' finished with non-zero exit value 1
+[        ] * Try:
+[        ] > Run with --debug option to get more log output.
+[        ] > Run with --scan to get full insights.
+[  +52 ms] [ +244 ms] "flutter assemble" took 212,693ms.
+[        ] [        ] Running 1 shutdown hook
+[        ] [   +1 ms] Shutdown hooks complete
+[        ] [ +270 ms] exiting with code 1
+[        ] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\fileHashes\resourceHashesCache.bin
+[        ] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\8.14\executionHistory\executionHistory.bin
+[        ] Invalidating in-memory cache of C:\Users\stepsense\android\.gradle\buildOutputCleanup\outputFiles.bin
+[        ] > Task :app:compileFlutterBuildRelease FAILED
+[        ] Build 8bca9e26-2e93-404f-91c7-ea9c9afaf948 is closed
+[        ] [Incubating] Problems report is available at: file:///C:/Users/stepsense/build/reports/problems/problems-report.html
+[+9640 ms] > Get more help at https://help.gradle.org.
+[        ] * Exception is:
+[        ] org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileFlutterBuildRelease'.
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteAction
+sTaskExecuter.java:130)
+[        ] 	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:293)
+[        ] 	at 
+org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:128)
+[        ] 	at 
+org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+[        ] 	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTra
+ckingTaskExecuter.java:41)
+[        ] 	at 
+org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+[        ] 	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionMod
+eExecuter.java:51)
+[        ] 	at 
+org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+[        ] 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+[        ] 	at 
+org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+[        ] 	at 
+org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+[  +56 ms] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultB
+uildOperationRunner.java:210)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultB
+uildOperationRunner.java:205)
+[        ] 	at 
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at 
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskEx
+ecutionGraph.java:331)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskEx
+ecutionGraph.java:318)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execu
+te$0(DefaultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(Defa
+ultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(Defa
+ultTaskExecutionGraph.java:303)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+[        ] 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+[        ] 	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[        ] 	at java.base/java.lang.Thread.run(Unknown Source)
+[        ] Caused by: org.gradle.process.internal.ExecException: Process 'command 'D:\IT-120\flutter\bin\flutter.bat'' 
+finished with non-zero exit value 1
+[        ] 	at 
+org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:442)
+[        ] 	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:49)
+[        ] 	at org.gradle.process.internal.DefaultExecActionFactory.exec(DefaultExecActionFactory.java:216)
+[        ] 	at org.gradle.process.internal.DefaultExecOperations.exec(DefaultExecOperations.java:37)
+[        ] 	at com.flutter.gradle.tasks.BaseFlutterTaskHelper.buildBundle(BaseFlutterTaskHelper.kt:159)
+[        ] 	at com.flutter.gradle.tasks.BaseFlutterTask.buildBundle(BaseFlutterTask.kt:143)
+[        ] 	at com.flutter.gradle.tasks.FlutterTaskHelper.build$gradle(FlutterTaskHelper.kt:90)
+[        ] 	at com.flutter.gradle.tasks.FlutterTask.build(FlutterTask.kt:51)
+[        ] 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+[        ] 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+[        ] 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+[        ] 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:58)
+[        ] 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+[        ] 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:244)
+[        ] 	at 
+org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+[        ] 	at 
+org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+[        ] 	at 
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at 
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:229)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:212)
+[        ] 	at 
+org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:195)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:162)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultB
+uildOperationRunner.java:210)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultB
+uildOperationRunner.java:205)
+[        ] 	at 
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at 
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+[        ] 	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+[        ] 	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+[        ] 	at 
+org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+[        ] 	at 
+org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+[        ] 	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+[        ] 	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+[        ] 	at 
+org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+[        ] 	at 
+org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+[        ] 	at 
+org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+[        ] 	at 
+org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+[        ] 	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+[        ] 	at org.gradle.internal.Either$Right.fold(Either.java:175)
+[        ] 	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+[        ] 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+[        ] 	at java.base/java.util.Optional.orElseGet(Unknown Source)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+[        ] 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingIn
+putsFinishedStep.java:37)
+[        ] 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingIn
+putsFinishedStep.java:27)
+[        ] 	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementa
+lCachingStateStep.java:49)
+[        ] 	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementa
+lCachingStateStep.java:27)
+[        ] 	at 
+org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+[        ] 	at 
+org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+[        ] 	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+[        ] 	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+[        ] 	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:107)
+[        ] 	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:56)
+[        ] 	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureState
+BeforeExecutionStep.java:64)
+[        ] 	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureState
+BeforeExecutionStep.java:43)
+[        ] 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmp
+tyWorkStep.java:125)
+[        ] 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:56)
+[        ] 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+[        ] 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInp
+utsStartedStep.java:38)
+[        ] 	at 
+org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+[        ] 	at 
+org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+[        ] 	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+[        ] 	at 
+org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+[        ] 	at 
+org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+[        ] 	at 
+org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+[        ] 	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+[        ] 	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuil
+dOperationFiringStep.java:67)
+[        ] 	at java.base/java.util.Optional.orElseGet(Unknown Source)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperatio
+nFiringStep.java:67)
+[        ] Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+[        ] You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[        ] For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+[        ] 6 actionable tasks: 2 executed, 4 up-to-date
+[        ] Watched directory hierarchies: [D:\IT-120\flutter\packages\flutter_tools\gradle]
+[        ] 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperatio
+nFiringStep.java:39)
+[        ] 	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+[        ] 	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+[        ] 	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+[        ] 	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:64)
+[        ] 	at 
+org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+[        ] 	at 
+org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+[        ] 	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTra
+ckingTaskExecuter.java:41)
+[        ] 	at 
+org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+[        ] 	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionMod
+eExecuter.java:51)
+[        ] 	at 
+org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+[        ] 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+[        ] 	at 
+org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+[        ] 	at 
+org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultB
+uildOperationRunner.java:210)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultB
+uildOperationRunner.java:205)
+[        ] 	at 
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at 
+org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskEx
+ecutionGraph.java:331)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskEx
+ecutionGraph.java:318)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execu
+te$0(DefaultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(Defa
+ultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(Defa
+ultTaskExecutionGraph.java:303)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+[ +318 ms] 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+[        ] 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+[        ] 	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[        ] 	at java.base/java.lang.Thread.run(Unknown Source)
+[        ] BUILD FAILED in 16m 49s
+[+60100 ms] Running Gradle task 'assembleRelease'... (completed in 1094.6s)
+[+5346 ms] "flutter apk" took 1,126,862ms.
+[+5873 ms] Gradle task assembleRelease failed with exit code 1
+[ +481 ms] 
+           #0      throwToolExit (package:flutter_tools/src/base/common.dart:34:3)
+           #1      AndroidGradleBuilder.buildGradleApp (package:flutter_tools/src/android/gradle.dart:592:7)
+           <asynchronous suspension>
+           #2      AndroidGradleBuilder.buildApk (package:flutter_tools/src/android/gradle.dart:234:5)
+           <asynchronous suspension>
+           #3      BuildApkCommand.runCommand (package:flutter_tools/src/commands/build_apk.dart:131:5)
+           <asynchronous suspension>
+           #4      FlutterCommand.run.<anonymous closure> 
+(package:flutter_tools/src/runner/flutter_command.dart:1559:27)
+           <asynchronous suspension>
+           #5      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #6      CommandRunner.runCommand (package:args/command_runner.dart:212:13)
+           <asynchronous suspension>
+           #7      FlutterCommandRunner.runCommand.<anonymous closure> 
+(package:flutter_tools/src/runner/flutter_command_runner.dart:487:9)
+           <asynchronous suspension>
+           #8      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #9      FlutterCommandRunner.runCommand (package:flutter_tools/src/runner/flutter_command_runner.dart:422:5)
+           <asynchronous suspension>
+           #10     run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:104:11)
+           <asynchronous suspension>
+           #11     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #12     main (package:flutter_tools/executable.dart:103:3)
+           <asynchronous suspension>
+
+
+[ +666 ms] Running 1 shutdown hook
+[+1571 ms] Shutdown hooks complete
+[ +694 ms] exiting with code 1
+EXIT build-arm64: 1
+Get-ChildItem : Cannot find path 'C:\Users\stepsense\build\app\outputs\flutter-apk\' because it does not exist.
+At C:\Users\stepsense\run_build4.ps1:16 char:1
++ Get-ChildItem "C:\Users\stepsense\build\app\outputs\flutter-apk\" 2>& ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\stepse...ts\flutter-apk\:String) [Get-ChildItem], ItemNotFound 
+   Exception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+=== END4 2026-10-01T16:52:16.7881309+08:00 ===
